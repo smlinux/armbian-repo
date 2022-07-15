@@ -1,0 +1,28 @@
+Origin: smlinux.github.io/armbian-repo/ubuntu-edge
+Label: smlinux.github.io/armbian-repo/ubuntu-edge
+Codename: jammy
+Date: Mon, 11 Jul 2022 14:55:34 UTC
+Architectures: arm64 armhf
+Components: main
+Description: smlinux armbian edge repository for ubuntu
+MD5Sum:
+ 57a6436a6acd05acad0ea199b9724b85 6876 main/binary-arm64/Packages
+ ba2c6986cacde67bb8e719a9c8ba6caa 2216 main/binary-arm64/Packages.gz
+ 9f6e2e0cea0b9eb40bedd089c50f5eaa 193 main/binary-arm64/Release
+ 4e2d6708f667b6c00193bcb3699efa7c 1810 main/binary-armhf/Packages
+ c6837f11b534e82d320932af724050a5 851 main/binary-armhf/Packages.gz
+ 8f0cab6e934c356250b3ed40668d162c 193 main/binary-armhf/Release
+SHA1:
+ a430c864d41a5fabd8b6fd2826a1ae08992a07fe 6876 main/binary-arm64/Packages
+ 369532d78ed2cea37541c69bbac6106968e2d578 2216 main/binary-arm64/Packages.gz
+ bf1892a1c4756eaa4fe9cbe3019015c56ac31cd6 193 main/binary-arm64/Release
+ 28100dbaf466bcd9aa92a318cb14c4ee739223dd 1810 main/binary-armhf/Packages
+ d288770b1d90a0a35bba9fe7a8caac33162e7b4c 851 main/binary-armhf/Packages.gz
+ dcd63e765c90b46b08acf79dd337fbbdd77e45b9 193 main/binary-armhf/Release
+SHA256:
+ dd6f8a7c36b3b4521d9ab31e78ed3cba40c095ffa50463fab0dad6dca6f6b2db 6876 main/binary-arm64/Packages
+ fa300bf76a6a284b958b9079382a14727ffea084f349ac08ad7315a0e96294d8 2216 main/binary-arm64/Packages.gz
+ c054f14f325180a9a88dc64b53bf004e7b9c3522bf239bf16abab21e2ab6c4fb 193 main/binary-arm64/Release
+ 22df2d0651e3595c05bc4eac0e98d5d894ccda80e4b16362d78941e4cf5a5493 1810 main/binary-armhf/Packages
+ 4c1e2ccc6ec779e4e84e3f35bc5e19f182df13f60d2b965d9519e464df3af79f 851 main/binary-armhf/Packages.gz
+ 62c947d1ae348288720c8d81f7c3067ccbceda5d89f3570fab4dfa2a531906ab 193 main/binary-armhf/Release

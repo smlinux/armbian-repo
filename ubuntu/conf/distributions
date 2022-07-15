@@ -1,0 +1,7 @@
+Origin: smlinux.github.io/armbian-repo/ubuntu
+Label: smlinux.github.io/armbian-repo/ubuntu
+Codename: jammy
+Architectures: arm64 armhf
+Components: main
+Description: smlinux armbian repository for ubuntu
+SignWith: 68CAFA02

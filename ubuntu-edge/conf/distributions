@@ -1,0 +1,7 @@
+Origin: smlinux.github.io/armbian-repo/ubuntu-edge
+Label: smlinux.github.io/armbian-repo/ubuntu-edge
+Codename: jammy
+Architectures: arm64 armhf
+Components: main
+Description: smlinux armbian edge repository for ubuntu
+SignWith: 68CAFA02

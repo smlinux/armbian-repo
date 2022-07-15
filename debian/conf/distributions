@@ -1,0 +1,7 @@
+Origin: smlinux.github.io/armbian-repo/debian
+Label: smlinux.github.io/armbian-repo/debian
+Codename: bullseye
+Architectures: arm64 armhf
+Components: main
+Description: smlinux armbian repository for debian
+SignWith: 68CAFA02

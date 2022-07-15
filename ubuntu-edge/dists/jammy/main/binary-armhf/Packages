@@ -1,0 +1,46 @@
+Package: armbian-config
+Version: 22.08.0-trunk-20220711-14
+Architecture: all
+Maintainer: smlinux <smartlinux@ya.ru>
+Replaces: armbian-bsp, neofetch
+Depends: bash, iperf3, psmisc, curl, bc, expect, dialog, pv, zip, 	debconf-utils, unzip, build-essential, html2text, html2text, dirmngr, software-properties-common, debconf, jq
+Recommends: armbian-bsp
+Suggests: libpam-google-authenticator, qrencode, network-manager, sunxi-tools
+Priority: optional
+Section: utils
+Filename: pool/main/a/armbian-config/armbian-config_22.08.0-trunk-20220711-14_all.deb
+Size: 126952
+SHA256: d7d2d04b6e05faa1f292949b604cbe0c6098a70800caa650578e45d6ce24835c
+SHA1: d1249f0f1c912e13a99a0b17a7e128045aff0068
+MD5sum: 5ea55c2d7ec5d32065edb825686ffda4
+Description: Armbian configuration utility
+
+Package: armbian-firmware
+Version: 22.08.0-trunk-20220711-14
+Architecture: all
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 1
+Replaces: linux-firmware, firmware-brcm80211, firmware-ralink, firmware-samsung, firmware-realtek, armbian-firmware-full
+Priority: optional
+Section: kernel
+Filename: pool/main/a/armbian-firmware/armbian-firmware_22.08.0-trunk-20220711-14_all.deb
+Size: 8104360
+SHA256: aee281826ab462fab8092cc12fb7fdcdd130ef772ce094038d751cec7cbd381b
+SHA1: 029f0edaca642d562a97550d3a3ca9b851a0ec60
+MD5sum: 5c0dda380ed5b368f0d47d55912e89ef
+Description: Linux firmware
+
+Package: armbian-zsh
+Version: 22.08.0-trunk-20220711-14
+Architecture: all
+Maintainer: smlinux <smartlinux@ya.ru>
+Depends: zsh, tmux
+Priority: optional
+Section: utils
+Filename: pool/main/a/armbian-zsh/armbian-zsh_22.08.0-trunk-20220711-14_all.deb
+Size: 2402996
+SHA256: 426311775c48d52a686e795ab6172a10febffcccecc7946776ccf35f4394d36c
+SHA1: 4afe6c44babb863c64776106d5a1a1ee8fbabe54
+MD5sum: 8beee79379f3ecc89170fe34b42c08ca
+Description: Armbian improved ZShell
+

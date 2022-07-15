@@ -1,0 +1,28 @@
+Origin: smlinux.github.io/armbian-repo/debian
+Label: smlinux.github.io/armbian-repo/debian
+Codename: bullseye
+Date: Fri, 15 Jul 2022 14:35:48 UTC
+Architectures: arm64 armhf
+Components: main
+Description: smlinux armbian repository for debian
+MD5Sum:
+ 3c37b5a3e9f153ff5b4fa28ac896c52d 6909 main/binary-arm64/Packages
+ b0b1d7c33a4f44b9857e00d3bc61d633 2213 main/binary-arm64/Packages.gz
+ e90bfe74dcfb16748670f3bc82654853 178 main/binary-arm64/Release
+ 5158721e5a568012df77cfcd1bef2230 1810 main/binary-armhf/Packages
+ 0b8e4ed0fb27fb66c45e66cb8849dff8 852 main/binary-armhf/Packages.gz
+ 4e18cae374d6a26af859e26842fd12c3 178 main/binary-armhf/Release
+SHA1:
+ 93dca6bc0bee941c3baeb01a9500c33647d3f563 6909 main/binary-arm64/Packages
+ 378746c58895dbeff5fead6719501eca211ef6f2 2213 main/binary-arm64/Packages.gz
+ ed2c1811b910f9bb01b1fc5cbd2cf59060214979 178 main/binary-arm64/Release
+ 098be70aaa27c155990d8eb73099a0bec0581058 1810 main/binary-armhf/Packages
+ efb646685ceccfb6ae696fe2c0d04a4d7996ef57 852 main/binary-armhf/Packages.gz
+ 2d6e4239589e7572a785118dbde51fe45a62d569 178 main/binary-armhf/Release
+SHA256:
+ ddf0882579ebf9492b791c9311b5a0e1cd0dc20309b3cce3030f0d20841ea266 6909 main/binary-arm64/Packages
+ 753366c71215595820d5d144d114b2309cf4aaf9c5c71fc27d3d7d0cc656bbe8 2213 main/binary-arm64/Packages.gz
+ e0716c8841ed6a4706593fcc4fa6796dcb79218c1af3f8adc5c9b97e8646fb52 178 main/binary-arm64/Release
+ b831c44c4529bb9482c52f1de0aebb61f86a33c9b7e1c6f2bf904149b6f4b903 1810 main/binary-armhf/Packages
+ 8dcd4fe5989cae702dfa554926b629d660ddbd3c350e7b77e7ed33a1b12ca81a 852 main/binary-armhf/Packages.gz
+ 1ecdf2013a909243489c3ea4287550e6fb00281710010e1f3fb86a7bbadd8c12 178 main/binary-armhf/Release
