@@ -1,5 +1,5 @@
 Package: armbian-config
-Version: 22.08.0-trunk-20220722-11
+Version: 22.08.0-trunk-20220724-11
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Replaces: armbian-bsp, neofetch
@@ -8,39 +8,39 @@ Recommends: armbian-bsp
 Suggests: libpam-google-authenticator, qrencode, network-manager, sunxi-tools
 Priority: optional
 Section: utils
-Filename: pool/main/a/armbian-config/armbian-config_22.08.0-trunk-20220722-11_all.deb
-Size: 126936
-SHA256: 6a2aa6f0eb1cfb37ab0500b071770641e5796132ac2f48f4feaa24dc280e8942
-SHA1: 9b7d691edff4e441153255d662e9a8f40b246883
-MD5sum: 6f8cfd172d6d4caa1aea10061c23c801
+Filename: pool/main/a/armbian-config/armbian-config_22.08.0-trunk-20220724-11_all.deb
+Size: 126932
+SHA256: 41d8771d26519e0cc31ccc5733ddc4c3b1350cb6b3c603123fa047b84884383c
+SHA1: 44fd2b7406a839f9cc2d57bf2776de7203e78e6b
+MD5sum: 7274791bb50a100d877c14e95ceec4e7
 Description: Armbian configuration utility
 
 Package: armbian-firmware
-Version: 22.08.0-trunk-20220722-11
+Version: 22.08.0-trunk-20220724-11
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 1
 Replaces: linux-firmware, firmware-brcm80211, firmware-ralink, firmware-samsung, firmware-realtek, armbian-firmware-full
 Priority: optional
 Section: kernel
-Filename: pool/main/a/armbian-firmware/armbian-firmware_22.08.0-trunk-20220722-11_all.deb
-Size: 8104104
-SHA256: a5ab0b761b219b06d03e465fd546c098dc1f2d40695d7e13e32818c0e5e7af22
-SHA1: 50cffff6414eebb66e62ec9b115735991270894c
-MD5sum: 85a2b7277a9a700402059cfbe7c79ef0
+Filename: pool/main/a/armbian-firmware/armbian-firmware_22.08.0-trunk-20220724-11_all.deb
+Size: 8103964
+SHA256: d12eca1ca45605c36c2365a86453eca74526bbc72b512985e969116e1478dc83
+SHA1: 0a2967be152df19666d4d7691457309eb580b327
+MD5sum: b1bc92298c1466ea380cad01e6fe3ced
 Description: Linux firmware
 
 Package: armbian-zsh
-Version: 22.08.0-trunk-20220722-11
+Version: 22.08.0-trunk-20220724-11
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Depends: zsh, tmux
 Priority: optional
 Section: utils
-Filename: pool/main/a/armbian-zsh/armbian-zsh_22.08.0-trunk-20220722-11_all.deb
-Size: 2455108
-SHA256: b28578866d6fedebb1ab9359eae7a9b1ac61ece89557094e3412ee83b9150e59
-SHA1: 21a48015de3d277715f065ce6d7f906551ace316
-MD5sum: 451ae302af81b191cce0e0bf4898f552
+Filename: pool/main/a/armbian-zsh/armbian-zsh_22.08.0-trunk-20220724-11_all.deb
+Size: 2455140
+SHA256: 5f80918a26f565992555850584b4b4d715b7f1a86ea0aff1ee20029097ba21dc
+SHA1: dde53c5759990417f9237db87a5ecbc8fb549ef2
+MD5sum: dcc5b5cd652f2b8a3fffa9b49527b149
 Description: Armbian improved ZShell
 
