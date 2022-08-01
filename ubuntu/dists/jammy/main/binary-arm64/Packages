@@ -1,25 +1,25 @@
 Package: armbian-bsp-cli-tanix-tx6
-Version: 22.08.0-trunk-20220724-11
+Version: 22.08.0-trunk-20220801-05
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 1
 Depends: bash, linux-base, u-boot-tools, initramfs-tools, lsb-release, fping
 Provides: linux-jammy-root-legacy-tanix-tx6, linux-jammy-root-current-tanix-tx6, linux-jammy-root-edge-tanix-tx6
 Suggests: armbian-config
-Replaces: zram-config, base-files, armbian-tools-jammy, linux-jammy-root-legacy-tanix-tx6 (<< 22.08.0-trunk-20220724-11~), linux-jammy-root-current-tanix-tx6 (<< 22.08.0-trunk-20220724-11~), linux-jammy-root-edge-tanix-tx6 (<< 22.08.0-trunk-20220724-11~)
-Breaks: linux-jammy-root-legacy-tanix-tx6 (<< 22.08.0-trunk-20220724-11~), linux-jammy-root-current-tanix-tx6 (<< 22.08.0-trunk-20220724-11~), linux-jammy-root-edge-tanix-tx6 (<< 22.08.0-trunk-20220724-11~)
+Replaces: zram-config, base-files, armbian-tools-jammy, linux-jammy-root-legacy-tanix-tx6 (<< 22.08.0-trunk-20220801-05~), linux-jammy-root-current-tanix-tx6 (<< 22.08.0-trunk-20220801-05~), linux-jammy-root-edge-tanix-tx6 (<< 22.08.0-trunk-20220801-05~)
+Breaks: linux-jammy-root-legacy-tanix-tx6 (<< 22.08.0-trunk-20220801-05~), linux-jammy-root-current-tanix-tx6 (<< 22.08.0-trunk-20220801-05~), linux-jammy-root-edge-tanix-tx6 (<< 22.08.0-trunk-20220801-05~)
 Recommends: bsdutils, parted, util-linux, toilet
 Priority: optional
 Section: kernel
-Filename: pool/main/a/armbian-bsp-cli-tanix-tx6/armbian-bsp-cli-tanix-tx6_22.08.0-trunk-20220724-11_arm64.deb
-Size: 420584
-SHA256: d8846fc2ff11ec6cba997be0f4b642db74c7751ff2448bf2f3ab94be62b7a062
-SHA1: 7a93aa7e59a9553c9a0b832d44bc19182b91c470
-MD5sum: a647d0e97797d2b620becd11b990f975
+Filename: pool/main/a/armbian-bsp-cli-tanix-tx6/armbian-bsp-cli-tanix-tx6_22.08.0-trunk-20220801-05_arm64.deb
+Size: 420544
+SHA256: cc4cc5b43f3bbd6e3578c61255d22ab32f4c8bf53350024b4dba68f75c078b74
+SHA1: 4e17aa0272325dabefe93678323fcab7a446cef3
+MD5sum: 62e6717260da07235497046e4be05b09
 Description: Armbian board support files for tanix-tx6
 
 Package: armbian-config
-Version: 22.08.0-trunk-20220724-11
+Version: 22.08.0-trunk-20220801-05
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Replaces: armbian-bsp, neofetch
@@ -28,45 +28,45 @@ Recommends: armbian-bsp
 Suggests: libpam-google-authenticator, qrencode, network-manager, sunxi-tools
 Priority: optional
 Section: utils
-Filename: pool/main/a/armbian-config/armbian-config_22.08.0-trunk-20220724-11_all.deb
-Size: 126932
-SHA256: 41d8771d26519e0cc31ccc5733ddc4c3b1350cb6b3c603123fa047b84884383c
-SHA1: 44fd2b7406a839f9cc2d57bf2776de7203e78e6b
-MD5sum: 7274791bb50a100d877c14e95ceec4e7
+Filename: pool/main/a/armbian-config/armbian-config_22.08.0-trunk-20220801-05_all.deb
+Size: 126872
+SHA256: a8d29520bd1bb8d6c84033fc162f733c8e27fba599c104cb3775b8cd868247bf
+SHA1: b8b1e5fc74f53e881dae84cb2b2c41c1dd204c7f
+MD5sum: deea278696f53af219666015501879b7
 Description: Armbian configuration utility
 
 Package: armbian-firmware
-Version: 22.08.0-trunk-20220724-11
+Version: 22.08.0-trunk-20220801-05
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 1
 Replaces: linux-firmware, firmware-brcm80211, firmware-ralink, firmware-samsung, firmware-realtek, armbian-firmware-full
 Priority: optional
 Section: kernel
-Filename: pool/main/a/armbian-firmware/armbian-firmware_22.08.0-trunk-20220724-11_all.deb
-Size: 8103964
-SHA256: d12eca1ca45605c36c2365a86453eca74526bbc72b512985e969116e1478dc83
-SHA1: 0a2967be152df19666d4d7691457309eb580b327
-MD5sum: b1bc92298c1466ea380cad01e6fe3ced
+Filename: pool/main/a/armbian-firmware/armbian-firmware_22.08.0-trunk-20220801-05_all.deb
+Size: 8104108
+SHA256: 68588b630b95b74c9e7d161ebb9272d973744b675436de8d4ce85355e3f4cc66
+SHA1: ed517f01e02e44b9dc2f0a1454dc59500b735345
+MD5sum: f0ff1a4a52197e2291766c1e507a92e7
 Description: Linux firmware
 
 Package: armbian-zsh
-Version: 22.08.0-trunk-20220724-11
+Version: 22.08.0-trunk-20220801-05
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Depends: zsh, tmux
 Priority: optional
 Section: utils
-Filename: pool/main/a/armbian-zsh/armbian-zsh_22.08.0-trunk-20220724-11_all.deb
-Size: 2455140
-SHA256: 5f80918a26f565992555850584b4b4d715b7f1a86ea0aff1ee20029097ba21dc
-SHA1: dde53c5759990417f9237db87a5ecbc8fb549ef2
-MD5sum: dcc5b5cd652f2b8a3fffa9b49527b149
+Filename: pool/main/a/armbian-zsh/armbian-zsh_22.08.0-trunk-20220801-05_all.deb
+Size: 2484660
+SHA256: e4d5f82386edfce3ff9a8fae790fce0a7340c5b59095534ed0e0d7b41b468ac9
+SHA1: f05768b13c943240bc5ff07c78e1dbcaad37beb3
+MD5sum: 97d5df10d9ffb0745181a6c47bf7c71b
 Description: Armbian improved ZShell
 
 Package: linux-dtb-current-sunxi64
-Source: linux-5.18.14-sunxi64
-Version: 22.08.0-trunk-20220724-11
+Source: linux-5.18.15-sunxi64
+Version: 22.08.0-trunk-20220801-05
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 1107
@@ -74,38 +74,38 @@ Provides: armbian-current, linux-dtb, linux-dtb-armbian
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-5.18.14-sunxi64/linux-dtb-current-sunxi64_22.08.0-trunk-20220724-11_arm64.deb
-Size: 47524
-SHA256: b97ed8d6b99faa38620fe24b18d0603dc030ef2fa21f5a28d7b1f91211bbef5b
-SHA1: a3ad8ec9255e548a46f7eeff33247a99cf14cd8e
-MD5sum: edeb83ea64fe0ed49689f597389a1b1f
-Description: Armbian Linux DTB, version 5.18.14-sunxi64 current
- This package contains device blobs from the Linux kernel, version 5.18.14-sunxi64
+Filename: pool/main/l/linux-5.18.15-sunxi64/linux-dtb-current-sunxi64_22.08.0-trunk-20220801-05_arm64.deb
+Size: 47548
+SHA256: dfa93a2e8630bf8277bb8553b680eca7a2b14d6b7255c309b605e26f030d3d4f
+SHA1: ff6d41aebbd3b8fbd314a7e6f0810f13b3927696
+MD5sum: 96324c1fc6a5db53766206e47b18d10a
+Description: Armbian Linux DTB, version 5.18.15-sunxi64 current
+ This package contains device blobs from the Linux kernel, version 5.18.15-sunxi64
 
 Package: linux-headers-current-sunxi64
-Source: linux-5.18.14-sunxi64
-Version: 22.08.0-trunk-20220724-11
+Source: linux-5.18.15-sunxi64
+Version: 22.08.0-trunk-20220801-05
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
-Installed-Size: 77442
+Installed-Size: 77444
 Depends: make, gcc, libc6-dev, bison, flex, libssl-dev
 Provides: armbian-current, linux-headers, linux-headers-armbian
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-5.18.14-sunxi64/linux-headers-current-sunxi64_22.08.0-trunk-20220724-11_arm64.deb
-Size: 12083064
-SHA256: 4c562c98b8f2849cf2a5435d512d0a09d846334cb83828d333140ab83cc2c11e
-SHA1: c92508e497dada9f9be893b9fe3f3f43e21a4e56
-MD5sum: cf63292e932255e003517ad3c6136cf8
-Description: Linux kernel headers for 5.18.14-sunxi64 on arm64 current
- This package provides kernel header files for 5.18.14-sunxi64 on arm64
+Filename: pool/main/l/linux-5.18.15-sunxi64/linux-headers-current-sunxi64_22.08.0-trunk-20220801-05_arm64.deb
+Size: 12083368
+SHA256: 78ade1b1b4f3e193e6def82306dcc24494e74c3f056bac9fa7ff354f5d9a44c2
+SHA1: 6f14354489c4ecdefca20457801a055eeb2fc62b
+MD5sum: 6810615b52d4a81a5fac224b8abea027
+Description: Linux kernel headers for 5.18.15-sunxi64 on arm64 current
+ This package provides kernel header files for 5.18.15-sunxi64 on arm64
  .
  This is useful for people who need to build external modules
 
 Package: linux-image-current-sunxi64
-Source: linux-5.18.14-sunxi64
-Version: 22.08.0-trunk-20220724-11
+Source: linux-5.18.15-sunxi64
+Version: 22.08.0-trunk-20220801-05
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 84575
@@ -113,18 +113,18 @@ Provides: armbian-current, linux-image, linux-image-armbian
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-5.18.14-sunxi64/linux-image-current-sunxi64_22.08.0-trunk-20220724-11_arm64.deb
-Size: 18173096
-SHA256: 5765a59d43a28dd4f7161f80319c2aa2202a24a5beed02ec29943d55a98cc229
-SHA1: 032434f68307e870cb4ca1ccc913082607f56d08
-MD5sum: fdd9d99f0e4da89cee8cf53d36510bb9
-Description: Linux kernel, armbian version 5.18.14-sunxi64 current
+Filename: pool/main/l/linux-5.18.15-sunxi64/linux-image-current-sunxi64_22.08.0-trunk-20220801-05_arm64.deb
+Size: 18195876
+SHA256: 379fee252b56d94b18cf7a63bba1857d5e02cdfb52c06af1b7bbfbb564c4cd39
+SHA1: c9143ae101a9b3814dd50768af317c628ea8799e
+MD5sum: 03b3a46d66f2435dd1c151dfcd889e37
+Description: Linux kernel, armbian version 5.18.15-sunxi64 current
  This package contains the Linux kernel, modules and corresponding other
- files, version: 5.18.14-sunxi64.
+ files, version: 5.18.15-sunxi64.
 
 Package: linux-libc-dev
-Source: linux-5.18.14-sunxi64
-Version: 22.08.0-trunk-20220724-11
+Source: linux-5.18.15-sunxi64
+Version: 22.08.0-trunk-20220801-05
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 6329
@@ -135,17 +135,17 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-5.18.14-sunxi64/linux-libc-dev_22.08.0-trunk-20220724-11_arm64.deb
-Size: 1220560
-SHA256: c2c09a2aa223498c20582ff7300d03cec3abf6ccf2d0bfe071cb48ef53eae063
-SHA1: 3e2c574bc194168a9297c4f1d829fbd1e8ec3445
-MD5sum: ca626a129a3936363a626350105940ea
+Filename: pool/main/l/linux-5.18.15-sunxi64/linux-libc-dev_22.08.0-trunk-20220801-05_arm64.deb
+Size: 1220532
+SHA256: c3eb82bf0cc03e214ddec1de06f4072ea0c2c92ca87ab185879f2aa923f43fb4
+SHA1: c05dbfecb2de88ee47c743ea0e0b5e2202650b66
+MD5sum: d17bfbae582f50913e681d58ee5e7ceb
 Description: Armbian Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: linux-u-boot-tanix-tx6-current
-Version: 22.08.0-trunk-20220724-11
+Version: 22.08.0-trunk-20220801-05
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 1
@@ -154,10 +154,10 @@ Replaces: armbian-u-boot
 Conflicts: armbian-u-boot, u-boot-sunxi
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-u-boot-tanix-tx6-current/linux-u-boot-tanix-tx6-current_22.08.0-trunk-20220724-11_arm64.deb
-Size: 210968
-SHA256: 4ba450132240b8f35358e037b9fb27b786374837aaaf96b71290417d5f5bc517
-SHA1: 18caa158adf077fd6a97e0b7690a3b51130a39e2
-MD5sum: 68d641f3debcdbafa4e65d1f22260d70
+Filename: pool/main/l/linux-u-boot-tanix-tx6-current/linux-u-boot-tanix-tx6-current_22.08.0-trunk-20220801-05_arm64.deb
+Size: 210956
+SHA256: 84ccb5ab3290237db192b2fa831f522121114fc58b8e336a34dcbc028f388142
+SHA1: 151689745b3a67dd9fd7c5512598b4571faae233
+MD5sum: 8b5983ee4c34f9322f006fc023a4f363
 Description: Uboot loader 2022.04
 
