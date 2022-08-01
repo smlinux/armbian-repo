@@ -1,28 +1,28 @@
 Origin: smlinux.github.io/armbian-repo/ubuntu-edge
 Label: smlinux.github.io/armbian-repo/ubuntu-edge
 Codename: jammy
-Date: Mon, 25 Jul 2022 13:50:57 UTC
+Date: Mon, 01 Aug 2022 15:16:02 UTC
 Architectures: arm64 armhf
 Components: main
 Description: smlinux armbian edge repository for ubuntu
 MD5Sum:
- d5d44c9428a196386758e38111b70d4a 6876 main/binary-arm64/Packages
- 0087081554e8fbb67e802e445453a490 2221 main/binary-arm64/Packages.gz
+ 962660cd0955968e54bbb87be5e76441 6820 main/binary-arm64/Packages
+ 8c51f99134ce84b4d49fb762ae823d0a 2213 main/binary-arm64/Packages.gz
  9f6e2e0cea0b9eb40bedd089c50f5eaa 193 main/binary-arm64/Release
- 62c29b112ab4e3f9e2e7791c32f22110 1810 main/binary-armhf/Packages
- 640bf45ccfd0fff3c9e989c8f05c2f52 855 main/binary-armhf/Packages.gz
+ e7f90c342b1c7a93d48ed361ecce8ed7 1810 main/binary-armhf/Packages
+ 4728c9a5487c8b035ecbf6449cd9818e 850 main/binary-armhf/Packages.gz
  8f0cab6e934c356250b3ed40668d162c 193 main/binary-armhf/Release
 SHA1:
- 13b5ac1142d9d5a78b4ef159f3bd57f1d8685974 6876 main/binary-arm64/Packages
- 7b86d9a9b6d46497d9e38d0ebdbf4d70d5b35e12 2221 main/binary-arm64/Packages.gz
+ d51bca04b6588b606e787857f788bec75211233c 6820 main/binary-arm64/Packages
+ 176574a413a98b7aa6227d51ab969ecb1a11af39 2213 main/binary-arm64/Packages.gz
  bf1892a1c4756eaa4fe9cbe3019015c56ac31cd6 193 main/binary-arm64/Release
- 2a29fd33dbbc16f7aa749f8ae3959ecaaf8ed9f1 1810 main/binary-armhf/Packages
- 5992dfd8165ed62f896070037436bf2d967d2ab4 855 main/binary-armhf/Packages.gz
+ 040e0ace5e751e27e4288401f340d271cbee91fb 1810 main/binary-armhf/Packages
+ df795b58fc5692dcf12e3c464c638566923e282c 850 main/binary-armhf/Packages.gz
  dcd63e765c90b46b08acf79dd337fbbdd77e45b9 193 main/binary-armhf/Release
 SHA256:
- 8034eda1bd578dc5e922c9b94a0cd879aeee105480f218473bd25559d42458b1 6876 main/binary-arm64/Packages
- 676b7dccab4ad63ffa4ad02da76d79aa086326222f6eb9edabb5ab01bfe7b6b6 2221 main/binary-arm64/Packages.gz
+ 91e2d6cb238c1d70bdff7205ae0d152b5a709180bd7cf710cf32836bc513ec3a 6820 main/binary-arm64/Packages
+ 7978445829920254c3ce3d257b1e261f8942479cb7178c23b2e9e49ee960fff0 2213 main/binary-arm64/Packages.gz
  c054f14f325180a9a88dc64b53bf004e7b9c3522bf239bf16abab21e2ab6c4fb 193 main/binary-arm64/Release
- 22f57952a872817a1961953cf9e342cc427f66f5e4a6b3adb252268566f943d6 1810 main/binary-armhf/Packages
- 7eea52a3ed0f6e92614a8a489b416169b64c955e11b49765d07116db00829bc2 855 main/binary-armhf/Packages.gz
+ f7721707416fed4295295b750022d24e7324f1bd43fe16699030d7c41f3206dc 1810 main/binary-armhf/Packages
+ d063d140ed16ef5cd65512b8ab3c5f4a9fdd93464656917baaf6da0b479c3526 850 main/binary-armhf/Packages.gz
  62c947d1ae348288720c8d81f7c3067ccbceda5d89f3570fab4dfa2a531906ab 193 main/binary-armhf/Release
