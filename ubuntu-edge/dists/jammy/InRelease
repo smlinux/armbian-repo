@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: smlinux.github.io/armbian-repo/ubuntu-edge
+Label: smlinux.github.io/armbian-repo/ubuntu-edge
+Codename: jammy
+Date: Fri, 23 Dec 2022 16:11:03 UTC
+Architectures: arm64 armhf
+Components: main
+Description: smlinux armbian edge repository for ubuntu
+MD5Sum:
+ e929e201290747e1a03d141af6203955 6414 main/binary-arm64/Packages
+ 6a21e45b3a5126e535d341283cdcc5fc 1726 main/binary-arm64/Packages.gz
+ 9f6e2e0cea0b9eb40bedd089c50f5eaa 193 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
+ 8f0cab6e934c356250b3ed40668d162c 193 main/binary-armhf/Release
+SHA1:
+ a602123cb662b82d17e67e2ae17216c5246b7d28 6414 main/binary-arm64/Packages
+ f4fde17da35c2cf1e6b40b20fe766a5a3cabe1a0 1726 main/binary-arm64/Packages.gz
+ bf1892a1c4756eaa4fe9cbe3019015c56ac31cd6 193 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
+ dcd63e765c90b46b08acf79dd337fbbdd77e45b9 193 main/binary-armhf/Release
+SHA256:
+ dd2e96ee039f03cb3217e6f9fcaee287be052d32257335cd8ea3a77587ea04f8 6414 main/binary-arm64/Packages
+ 4e5bd3b7d92fb771291da1fc032b6bff3e239118a6717324b108970b46aa77a0 1726 main/binary-arm64/Packages.gz
+ c054f14f325180a9a88dc64b53bf004e7b9c3522bf239bf16abab21e2ab6c4fb 193 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armhf/Packages.gz
+ 62c947d1ae348288720c8d81f7c3067ccbceda5d89f3570fab4dfa2a531906ab 193 main/binary-armhf/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEw0tQEI1hGzKUPUHTuVv+1mjK+gIFAmOl0xcACgkQuVv+1mjK
++gKY3Av/QN+0NsBq2IalxBQqan2juk1tQiFUS+3i/e5ZZOcYn0yCs3h+obnsyX5H
+q9UqOC9aKQDRhhkjpbagQmGzzKAopnISWrgxxq7S0gwu80q6OBAGyqmjuoHYFtu4
+Z7YtqcTN/rbJL99tY9XjIKefAxnvBihENSaPDVbwDAdL5+GDcBHh88TgLxlWi9jj
+3N+QsMR3tfnYANqvBDpUApuYuJaHzmB539U/ObarYVSjqSj3PeD+VoO90+1zD/Zi
+lA2KlDrZkyUWFIL1pNtISTDNK0VCu18tvL2f+dlFcpuDOIx4dIWpM0p/5EerEBWx
+wEr50qbpr8SRwArfVRhQamnypJPtVTTsk3yA5ILBM6ev0UnEODZHNKt6wXKzydvx
+C4CFM2+oP6H6z3YZDF5E+dQU1Wa9INIUTUq53ZZ0uhiQlM91LXG/z+jX/sPoap3T
+eTLH6/rH1LdVKP4nkEt0ddKTZGOj12/E34md4xeacvCcdE9mFENHbLAzvDUay0pk
+ew4/o5Gy
+=45At
+-----END PGP SIGNATURE-----

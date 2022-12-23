@@ -1,0 +1,5 @@
+Component: main
+Origin: smlinux.github.io/armbian-repo/debian
+Label: smlinux.github.io/armbian-repo/debian
+Architecture: arm64
+Description: smlinux armbian repository for debian

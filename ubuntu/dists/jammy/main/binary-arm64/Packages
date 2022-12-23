@@ -1,0 +1,163 @@
+Package: linux-dtb-current-sunxi64
+Source: linux-6.0.11-sunxi64
+Version: 23.02.0-trunk-20221204-20
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 1135
+Depends: linux-dtb-current-tanix-tx6
+Provides: armbian-current, linux-dtb, linux-dtb-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-6.0.11-sunxi64/linux-dtb-current-sunxi64_23.02.0-trunk-20221204-20_arm64.deb
+Size: 49260
+SHA256: 17a89dd54cc788639630c2de3f6f42a15c470df920929ca85906e36855b60b4a
+SHA1: cf88bcaa1c1cf18c29cb6df2f9c4c097a3f6fd93
+MD5sum: 8d12ba5b6002c5106c3de8cf2e252375
+Description: Armbian Linux DTB, version 6.0.11-sunxi64 current
+ This package contains device blobs from the Linux kernel, version 6.0.11-sunxi64
+
+Package: linux-dtb-current-tanix-tx6
+Source: linux-6.0.15-tanix-tx6
+Version: 23.02.0-trunk-20221223-15
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 1134
+Breaks: linux-dtb-current-sunxi64
+Replaces: linux-dtb-current-sunxi64
+Provides: armbian-current, linux-dtb, linux-dtb-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-6.0.15-tanix-tx6/linux-dtb-current-tanix-tx6_23.02.0-trunk-20221223-15_arm64.deb
+Size: 49596
+SHA256: 22d41c439bf592a9bc5c6fb6d8e045f2e5d1be13451729b10d4b539e5d9ebf60
+SHA1: d54a878f25e359536062c327bd3229f717116832
+MD5sum: 744e3d6ce7a07cc54fd74eb5781e886e
+Description: Armbian Linux DTB, version 6.0.15-tanix-tx6 current
+ This package contains device blobs from the Linux kernel, version 6.0.15-tanix-tx6
+
+Package: linux-headers-current-sunxi64
+Source: linux-6.0.11-sunxi64
+Version: 23.02.0-trunk-20221204-20
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 78885
+Depends: linux-headers-current-tanix-tx6, make, gcc, libc6-dev, bison, flex, libssl-dev
+Provides: armbian-current, linux-headers, linux-headers-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-6.0.11-sunxi64/linux-headers-current-sunxi64_23.02.0-trunk-20221204-20_arm64.deb
+Size: 12257800
+SHA256: 62d509bc7df06fd18acebde923ca45a77733b76df47fb25bdc1bb930496219a9
+SHA1: 925d7611884d5124a5155dab35a0f0935cbf7a44
+MD5sum: 686063a1446d1be273c81089af51df5f
+Description: Linux kernel headers for 6.0.11-sunxi64 on arm64 current
+ This package provides kernel header files for 6.0.11-sunxi64 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-current-tanix-tx6
+Source: linux-6.0.15-tanix-tx6
+Version: 23.02.0-trunk-20221223-15
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 79461
+Depends: make, gcc, libc6-dev, bison, flex, libssl-dev
+Breaks: linux-headers-current-sunxi64
+Replaces: linux-headers-current-sunxi64
+Provides: armbian-current, linux-headers, linux-headers-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-6.0.15-tanix-tx6/linux-headers-current-tanix-tx6_23.02.0-trunk-20221223-15_arm64.deb
+Size: 12293828
+SHA256: 98d56325c519a785c5b229924fc332a0c92317664855a933a1b9d931c2d2b8be
+SHA1: 0a55e415730e935e329a5b67692b0810975d5605
+MD5sum: 4f7d41918a756a09506ab06c45876ba1
+Description: Linux kernel headers for 6.0.15-tanix-tx6 on arm64 current
+ This package provides kernel header files for 6.0.15-tanix-tx6 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-current-sunxi64
+Source: linux-6.0.11-sunxi64
+Version: 23.02.0-trunk-20221204-20
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 84635
+Depends: linux-image-current-tanix-tx6
+Provides: armbian-current, linux-image, linux-image-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-6.0.11-sunxi64/linux-image-current-sunxi64_23.02.0-trunk-20221204-20_arm64.deb
+Size: 18318084
+SHA256: aac964d379e1accc88d62bb75c4503114ab12a58a4f4cfa799801d683ed88f3b
+SHA1: 1dd0f963f4328d80adcb7febda41244a45754828
+MD5sum: 2f4aefb706a4525f961d82374bb009c6
+Description: Linux kernel, armbian version 6.0.11-sunxi64 current
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.11-sunxi64.
+
+Package: linux-image-current-tanix-tx6
+Source: linux-6.0.15-tanix-tx6
+Version: 23.02.0-trunk-20221223-15
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 100663
+Breaks: linux-image-current-sunxi64
+Replaces: linux-image-current-sunxi64
+Provides: armbian-current, linux-image, linux-image-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-6.0.15-tanix-tx6/linux-image-current-tanix-tx6_23.02.0-trunk-20221223-15_arm64.deb
+Size: 20436684
+SHA256: 8e76efd2224c2284f2a3f4d40b04b9714a7b0df42c859869a4428c4b28854daa
+SHA1: c5b2851de068918ce1e1c8c62a795f019d87e47b
+MD5sum: 432879368cac49c63c3e956b8777b96f
+Description: Linux kernel, armbian version 6.0.15-tanix-tx6 current
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.15-tanix-tx6.
+
+Package: linux-libc-dev
+Source: linux-6.0.15-tanix-tx6
+Version: 23.02.0-trunk-20221223-15
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 6479
+Conflicts: linux-kernel-headers
+Replaces: linux-kernel-headers
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-6.0.15-tanix-tx6/linux-libc-dev_23.02.0-trunk-20221223-15_arm64.deb
+Size: 1246796
+SHA256: 7ad6672c9e4647903bb4cd49375d183907022b3823ae431baf976926d17472a0
+SHA1: 741c987ea7c4786de3d511e9f61f7c8abeb1df71
+MD5sum: 5da63e67a80ffd2fd66d1e5c884bf697
+Description: Armbian Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-u-boot-tanix-tx6-current
+Version: 23.02.0-trunk-20221223-15
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 1
+Provides: armbian-u-boot
+Replaces: armbian-u-boot
+Conflicts: armbian-u-boot, u-boot-sunxi
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-u-boot-tanix-tx6-current/linux-u-boot-tanix-tx6-current_23.02.0-trunk-20221223-15_arm64.deb
+Size: 221456
+SHA256: bd212f4c21400e47f47d52f6ab85db6db19897f9f2764fc9143eb52c2e10b612
+SHA1: c9c3abb0dd3a7554851f8100f957f608adfe33ac
+MD5sum: 8e5bc6c96000316a54848086f92c0c66
+Description: Uboot loader 2022.10
+

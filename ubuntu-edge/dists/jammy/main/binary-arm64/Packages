@@ -1,0 +1,163 @@
+Package: linux-dtb-edge-sunxi64
+Source: linux-6.0.11-sunxi64
+Version: 23.02.0-trunk-20221204-20
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 1135
+Depends: linux-dtb-edge-tanix-tx6
+Provides: armbian-edge, linux-dtb, linux-dtb-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-6.0.11-sunxi64/linux-dtb-edge-sunxi64_23.02.0-trunk-20221204-20_arm64.deb
+Size: 49312
+SHA256: 4693619d9088190e0505f121849abaa395885bbf0fcb296ee30a0e9215918396
+SHA1: f0386881092658ccb9e372614df76d92dc52a9d0
+MD5sum: 36a69ca62f906add8d92cc76e4fcb576
+Description: Armbian Linux DTB, version 6.0.11-sunxi64 edge
+ This package contains device blobs from the Linux kernel, version 6.0.11-sunxi64
+
+Package: linux-dtb-edge-tanix-tx6
+Source: linux-6.1.1-tanix-tx6
+Version: 23.02.0-trunk-20221223-16
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 1140
+Breaks: linux-dtb-edge-sunxi64
+Replaces: linux-dtb-edge-sunxi64
+Provides: armbian-edge, linux-dtb, linux-dtb-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-6.1.1-tanix-tx6/linux-dtb-edge-tanix-tx6_23.02.0-trunk-20221223-16_arm64.deb
+Size: 50068
+SHA256: ee19a32afbec935f46db3cf2568e44c7d014ec335d83cd1d81153a6b426e7ce5
+SHA1: c391e109c4422f1e65aaaaae38400c53788477a2
+MD5sum: 6cd3edbe796f603d6ce0f8fb7b0eda86
+Description: Armbian Linux DTB, version 6.1.1-tanix-tx6 edge
+ This package contains device blobs from the Linux kernel, version 6.1.1-tanix-tx6
+
+Package: linux-headers-edge-sunxi64
+Source: linux-6.0.11-sunxi64
+Version: 23.02.0-trunk-20221204-20
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 78885
+Depends: linux-headers-edge-tanix-tx6, make, gcc, libc6-dev, bison, flex, libssl-dev
+Provides: armbian-edge, linux-headers, linux-headers-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-6.0.11-sunxi64/linux-headers-edge-sunxi64_23.02.0-trunk-20221204-20_arm64.deb
+Size: 12257972
+SHA256: bf114e2760801252c48abe0ea038d4596c30e5c2add02cb3ae9e363beac06130
+SHA1: 68ebe9c0b45961b079a5440398a64234351d1e74
+MD5sum: 6d24bb3af8937ba4df6ed037625a8bdd
+Description: Linux kernel headers for 6.0.11-sunxi64 on arm64 edge
+ This package provides kernel header files for 6.0.11-sunxi64 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-headers-edge-tanix-tx6
+Source: linux-6.1.1-tanix-tx6
+Version: 23.02.0-trunk-20221223-16
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 80101
+Depends: make, gcc, libc6-dev, bison, flex, libssl-dev
+Breaks: linux-headers-edge-sunxi64
+Replaces: linux-headers-edge-sunxi64
+Provides: armbian-edge, linux-headers, linux-headers-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-6.1.1-tanix-tx6/linux-headers-edge-tanix-tx6_23.02.0-trunk-20221223-16_arm64.deb
+Size: 12392160
+SHA256: 24bc09477390b869c990772469569d44298a67151798483897f813472955c310
+SHA1: 0329d023accf0ef67dba7bc85e51b60a221d05d4
+MD5sum: 43903bca2553c235716f96d564e07502
+Description: Linux kernel headers for 6.1.1-tanix-tx6 on arm64 edge
+ This package provides kernel header files for 6.1.1-tanix-tx6 on arm64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-edge-sunxi64
+Source: linux-6.0.11-sunxi64
+Version: 23.02.0-trunk-20221204-20
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 84635
+Depends: linux-image-edge-tanix-tx6
+Provides: armbian-edge, linux-image, linux-image-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-6.0.11-sunxi64/linux-image-edge-sunxi64_23.02.0-trunk-20221204-20_arm64.deb
+Size: 18319684
+SHA256: 3204c51a3a34d683bb71131be6d78698163403a37f9a63116ec250725c599bdb
+SHA1: bf66078511bc1337a45acf4fa4e145e1d39ee6ec
+MD5sum: 811d64d13169adda0e86ad7de133788f
+Description: Linux kernel, armbian version 6.0.11-sunxi64 edge
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.0.11-sunxi64.
+
+Package: linux-image-edge-tanix-tx6
+Source: linux-6.1.1-tanix-tx6
+Version: 23.02.0-trunk-20221223-16
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 99675
+Breaks: linux-image-edge-sunxi64
+Replaces: linux-image-edge-sunxi64
+Provides: armbian-edge, linux-image, linux-image-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-6.1.1-tanix-tx6/linux-image-edge-tanix-tx6_23.02.0-trunk-20221223-16_arm64.deb
+Size: 20407740
+SHA256: 0370b4a24a41f757acc46bb29d3c02e5d9ba724bc9bdf8f9a471ca9a35d41ded
+SHA1: 52c697715944110e661d520e6e103c332f6d33a7
+MD5sum: c607392be57185558c343adf72eeade4
+Description: Linux kernel, armbian version 6.1.1-tanix-tx6 edge
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.1-tanix-tx6.
+
+Package: linux-libc-dev
+Source: linux-6.1.1-tanix-tx6
+Version: 23.02.0-trunk-20221223-16
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 6505
+Conflicts: linux-kernel-headers
+Replaces: linux-kernel-headers
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-6.1.1-tanix-tx6/linux-libc-dev_23.02.0-trunk-20221223-16_arm64.deb
+Size: 1253252
+SHA256: ce2419bfacd4dc747c7bfa70acf901027d4f6c1269a07de447ccd181f5a0e78f
+SHA1: 6947b8c81ec299dd0906bec6f9b03c76553a2f4c
+MD5sum: 6f43d619c1fd4069b1751671f5694659
+Description: Armbian Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-u-boot-tanix-tx6-edge
+Version: 23.02.0-trunk-20221223-16
+Architecture: arm64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 1
+Provides: armbian-u-boot
+Replaces: armbian-u-boot
+Conflicts: armbian-u-boot, u-boot-sunxi
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-u-boot-tanix-tx6-edge/linux-u-boot-tanix-tx6-edge_23.02.0-trunk-20221223-16_arm64.deb
+Size: 221476
+SHA256: 9edd4d96c3613cd5f2b4b1411d4ea35abc38ce8542476a0456831e942bbae8d3
+SHA1: 2f4ed32cfc5c966770b53c4eb299e99dc9ee4d34
+MD5sum: 9843a4554dd44ecd67c85cbacbd69a28
+Description: Uboot loader 2022.10
+

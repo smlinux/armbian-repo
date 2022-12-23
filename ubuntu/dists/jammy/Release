@@ -1,0 +1,28 @@
+Origin: smlinux.github.io/armbian-repo/ubuntu
+Label: smlinux.github.io/armbian-repo/ubuntu
+Codename: jammy
+Date: Fri, 23 Dec 2022 15:58:10 UTC
+Architectures: arm64 armhf
+Components: main
+Description: smlinux armbian repository for ubuntu
+MD5Sum:
+ 95e1d6c9a58f9a828009223b7a1eaa14 6537 main/binary-arm64/Packages
+ d4025e670280492a24ebaaf906cf2e04 1724 main/binary-arm64/Packages.gz
+ c2be0f05f08297811999f1131e1ceb3a 178 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
+ 2febb965534a75fc26d9d673a35ccf0b 178 main/binary-armhf/Release
+SHA1:
+ 5d47fd6e697a433ceedd3fb657c92c11f15a97c1 6537 main/binary-arm64/Packages
+ cf87e3a6b404d31f91bc0038cc761e58c2ac28c5 1724 main/binary-arm64/Packages.gz
+ 809811fe9f2baf09e528432ad988ff6816060e40 178 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
+ 3877de6706343f16eb23d6bf72f486ab316ce0c2 178 main/binary-armhf/Release
+SHA256:
+ 3640938f227c123812ca2e502e0f159a815536c357e032b4d882724ffd677524 6537 main/binary-arm64/Packages
+ 40b08959d1816b9158437ea03c433087181ab804abcf5eb79cb38c00ad805bb9 1724 main/binary-arm64/Packages.gz
+ 1b9298cced95a7d4a6aa26197013f0eff3d968ce74bf6e429f2c3ee1320d8124 178 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armhf/Packages.gz
+ 694b29260610586bbe738a4e8acac24aa01aba6b0403cab52759dbd3a6b74a48 178 main/binary-armhf/Release

@@ -1,0 +1,5 @@
+Component: main
+Origin: smlinux.github.io/armbian-repo/ubuntu
+Label: smlinux.github.io/armbian-repo/ubuntu
+Architecture: armhf
+Description: smlinux armbian repository for ubuntu

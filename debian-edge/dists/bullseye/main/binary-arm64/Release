@@ -1,0 +1,5 @@
+Component: main
+Origin: smlinux.github.io/armbian-repo/debian-edge
+Label: smlinux.github.io/armbian-repo/debian-edge
+Architecture: arm64
+Description: smlinux armbian edge repository for debian
