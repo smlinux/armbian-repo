@@ -4,42 +4,42 @@ Hash: SHA512
 Origin: smlinux.github.io/armbian-repo/ubuntu
 Label: smlinux.github.io/armbian-repo/ubuntu
 Codename: jammy
-Date: Fri, 23 Dec 2022 15:58:10 UTC
+Date: Sat, 24 Dec 2022 02:55:04 UTC
 Architectures: arm64 armhf
 Components: main
 Description: smlinux armbian repository for ubuntu
 MD5Sum:
- 95e1d6c9a58f9a828009223b7a1eaa14 6537 main/binary-arm64/Packages
- d4025e670280492a24ebaaf906cf2e04 1724 main/binary-arm64/Packages.gz
+ 772cb342be9d3bbd18badb4ae3f8c592 7123 main/binary-arm64/Packages
+ 9609a7ca1442d9c2532a64d0a4b9d0f5 1929 main/binary-arm64/Packages.gz
  c2be0f05f08297811999f1131e1ceb3a 178 main/binary-arm64/Release
- d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armhf/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armhf/Packages.gz
+ 7b4aa37db2f76f71d520326aa8ab31ce 586 main/binary-armhf/Packages
+ b39d4f2879d19598323a0df63e501892 383 main/binary-armhf/Packages.gz
  2febb965534a75fc26d9d673a35ccf0b 178 main/binary-armhf/Release
 SHA1:
- 5d47fd6e697a433ceedd3fb657c92c11f15a97c1 6537 main/binary-arm64/Packages
- cf87e3a6b404d31f91bc0038cc761e58c2ac28c5 1724 main/binary-arm64/Packages.gz
+ 5284ae696b62a836a487346ae13124d23b9af49f 7123 main/binary-arm64/Packages
+ 34fe19128d3aa09a2a100ea8c4c225b2311d4232 1929 main/binary-arm64/Packages.gz
  809811fe9f2baf09e528432ad988ff6816060e40 178 main/binary-arm64/Release
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armhf/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armhf/Packages.gz
+ 23085c4aa53b493dd1e514046ac36aee9128a12d 586 main/binary-armhf/Packages
+ 2b19201469d380fe0183c729667419acf79f0782 383 main/binary-armhf/Packages.gz
  3877de6706343f16eb23d6bf72f486ab316ce0c2 178 main/binary-armhf/Release
 SHA256:
- 3640938f227c123812ca2e502e0f159a815536c357e032b4d882724ffd677524 6537 main/binary-arm64/Packages
- 40b08959d1816b9158437ea03c433087181ab804abcf5eb79cb38c00ad805bb9 1724 main/binary-arm64/Packages.gz
+ e8f7dc6d1d351010e04cb89a703c5c34fec8aafa00281fb25d1599e68c89a419 7123 main/binary-arm64/Packages
+ badf3417e468928529b487fee17c845185c5c542097952cedf6b420738414f41 1929 main/binary-arm64/Packages.gz
  1b9298cced95a7d4a6aa26197013f0eff3d968ce74bf6e429f2c3ee1320d8124 178 main/binary-arm64/Release
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armhf/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armhf/Packages.gz
+ 0850cd68be039edc2ad3a0623374978986fbd38c4dbd1c38f1586ff825e040dc 586 main/binary-armhf/Packages
+ 97a79ae65710fda16291b5ce64c44ffeaa5b92c02c9d396891860e0f122d55b8 383 main/binary-armhf/Packages.gz
  694b29260610586bbe738a4e8acac24aa01aba6b0403cab52759dbd3a6b74a48 178 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEw0tQEI1hGzKUPUHTuVv+1mjK+gIFAmOl0BIACgkQuVv+1mjK
-+gKn6wv/RLcjWqRzLiKIstzf38F+K6A0nXh4ThzCbTJwDGa4pOdcLm0BA1pC7Pxa
-vVDW2o3VVHmX33OQWnq+DJ0dwbCBw2I9Giy7e9L+X0rURGikksEB3ORNiyai0oxY
-p7ICjClQDoj5ACnrZn++8WhHHgt295Axu+Xp6xvgSNtDdQaElwdfvRWp5aGTx+5k
-2uqwVzG84h9ryYw+vT6P17AWCNmlbArJQsgCcpY6lsrBTToWTprSWqgurDI8Rsx6
-HsKmKaPa9wwJFBmptnaUnBTZJb3JYoSqixi3Gs5tiuhg7EaZnlUOOdwO753T+YyP
-MhNSQYHliZqBWY2fG7HQaPdvjuBVoozbvNn9RcuybU+jCeLZNjsU/YTMQ6G1p0fd
-S5euL5JBkRPAkv215PrhJXzr0+ANIQCUnb+vgfqGsU03iQQBoMkZ3iBJ2ULzsM5C
-g0k1sOqf4WBV78ffWpOcUV8yhUj+iTIia42OTQJMa314VNbwftoL8ThNhr03/15o
-h15dqodI
-=dD74
+iQGzBAEBCgAdFiEEw0tQEI1hGzKUPUHTuVv+1mjK+gIFAmOmaggACgkQuVv+1mjK
++gIj8Av+Pda7V2PH3PpD8fd0lUDBgs8Ihdyn9YvTYAV46Z9KW1Fg8m23qfw5q9Pz
+kM7xoWOM2uBuAlPs8nLooCsVzCdgVv1Y7mGEvMu0N+1rqAByD8o/UWnBEnr3jqnI
+91WYMdJoBZ1xVt0kkcLOWG81tGkzLN86hEkCw1jQ+uz1Jt6mvqMFUD7SDtVYmBKF
+HGRWx0m5ZBHoePbNNje2SZ8SLKLg8gHrdiQ0q9ok2fEgcTfx/KQ47BqyqNytGqAx
+APMFnuFg6wOrYV07qG4U+Cu9s79deQwvn2haMC62BsqDjt685CnA+1in/Ckt48Eb
+plO+EiDimvxRJcI9rEK1Sz7Nlis/4zk+ySoj491DogHqurmn0SPdaWHxwGYSSRNc
+6RwUquaE7wGP8xO8TAnwVvoo80zVTN8/Tw/1LWR9w6hxxE8ugJMLnSWfq5FUJQ+o
+ma1Yvmicvu36echPc1DoUQomBa5GIoe/DbQW6PIapm0LTtKp9EDVLDvWSZ0CnSWs
+ceBuAVBD
+=HdR9
 -----END PGP SIGNATURE-----

@@ -1,3 +1,18 @@
+Package: armbian-firmware
+Version: 23.02.0-trunk-20221224-02
+Architecture: all
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 1
+Replaces: linux-firmware, firmware-brcm80211, firmware-ralink, firmware-samsung, firmware-realtek, armbian-firmware-full
+Priority: optional
+Section: kernel
+Filename: pool/main/a/armbian-firmware/armbian-firmware_23.02.0-trunk-20221224-02_all.deb
+Size: 9168156
+SHA256: e0e1582095ff49dfeba756ba219dcbc2588845e6ebabfccfbb542297bc0fc332
+SHA1: ab0092430e2ff5a14379bd5599849c20075db537
+MD5sum: 42ce35bdee71b4e53981dbf4025fac04
+Description: Linux firmware
+
 Package: linux-dtb-edge-sunxi64
 Source: linux-6.0.11-sunxi64
 Version: 23.02.0-trunk-20221204-20
