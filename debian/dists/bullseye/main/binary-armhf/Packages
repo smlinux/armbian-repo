@@ -1,5 +1,5 @@
 Package: armbian-config
-Version: 23.02.0-trunk-20230101-09
+Version: 23.02.0-trunk-20230108-08
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Replaces: armbian-bsp, neofetch
@@ -8,53 +8,53 @@ Recommends: armbian-bsp
 Suggests: libpam-google-authenticator, qrencode, network-manager, sunxi-tools
 Priority: optional
 Section: utils
-Filename: pool/main/a/armbian-config/armbian-config_23.02.0-trunk-20230101-09_all.deb
-Size: 129812
-SHA256: 81ad16c66e7108d48979e361848e629646a56903f9e7e61bd87917313cc818c8
-SHA1: b7ed79dfe2a41666a9a481f75561dd8589a6be5d
-MD5sum: 37c24ab636c00fa074355a9dd975662a
+Filename: pool/main/a/armbian-config/armbian-config_23.02.0-trunk-20230108-08_all.deb
+Size: 129832
+SHA256: 12e15ba4b47fdd35afaa66acd6e722ae39c2a4d0e72f25db16460bd2f3292f58
+SHA1: 271ed399ecc13606e8fe6eb2197ca49b42fde3b5
+MD5sum: 4b8966e4dd44e6ced5fa342a1b0f0f3f
 Description: Armbian configuration utility
 
 Package: armbian-firmware
-Version: 23.02.0-trunk-20230101-09
+Version: 23.02.0-trunk-20230108-08
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 1
 Replaces: linux-firmware, firmware-brcm80211, firmware-ralink, firmware-samsung, firmware-realtek, armbian-firmware-full
 Priority: optional
 Section: kernel
-Filename: pool/main/a/armbian-firmware/armbian-firmware_23.02.0-trunk-20230101-09_all.deb
-Size: 9168188
-SHA256: 00068f6e9840743ac08d9d3394c3d218fe9627fa5ee8f64f46b3205e89ffdb85
-SHA1: 3b41b1825c64c44ff56b3bf3dbc05834c1ce8c14
-MD5sum: eaa2d7420d603ee0a0324bb4bb49965f
+Filename: pool/main/a/armbian-firmware/armbian-firmware_23.02.0-trunk-20230108-08_all.deb
+Size: 9168288
+SHA256: 0d57899999b3cf7490899764cf6190b0fb997536d2a18ca8c31f95b14af9c948
+SHA1: 1eb05a0e959b4bfc24f451614a387661f7bc0ebd
+MD5sum: c77a1f44185dc8ad0fdc77aa10e62237
 Description: Linux firmware
 
 Package: armbian-plymouth-theme
-Version: 23.02.0-trunk-20230101-09
+Version: 23.02.0-trunk-20230108-08
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Depends: plymouth, plymouth-themes
 Priority: optional
 Section: universe/x11
-Filename: pool/main/a/armbian-plymouth-theme/armbian-plymouth-theme_23.02.0-trunk-20230101-09_all.deb
-Size: 120752
-SHA256: a2805d9dba2f8cf1714415fd01553512e7d98d5f1640c6bd16c3855caf96a45c
-SHA1: d7d16dfbe6e118aa308ea96cce68af60eaef6b4e
-MD5sum: 6db1d8b4e387d35f2fbf33e5e2861666
+Filename: pool/main/a/armbian-plymouth-theme/armbian-plymouth-theme_23.02.0-trunk-20230108-08_all.deb
+Size: 120760
+SHA256: 0eb35e06f112ef58cef093c54c1bca6fb40723b28b748321d7b7a0d8d1f8264e
+SHA1: d6b6b937af30486d1b8d98dd9db5a46557fb506a
+MD5sum: 8153c65544b93b818a5c36b53904ae91
 Description: boot animation, logger and I/O multiplexer - armbian theme
 
 Package: armbian-zsh
-Version: 23.02.0-trunk-20230101-09
+Version: 23.02.0-trunk-20230108-08
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Depends: zsh, tmux
 Priority: optional
 Section: utils
-Filename: pool/main/a/armbian-zsh/armbian-zsh_23.02.0-trunk-20230101-09_all.deb
-Size: 2574108
-SHA256: 2de227d243ae427b252c3f29325c70fd510b6fdb54d8e79f8a8f8e86365c4dfb
-SHA1: 8f45311d3b073b16dc8097363f6254f839c78a98
-MD5sum: 25a310ce7338028f816a1f2d73c76288
+Filename: pool/main/a/armbian-zsh/armbian-zsh_23.02.0-trunk-20230108-08_all.deb
+Size: 2631364
+SHA256: 7c416679c2853905beeb25834bb843366a54bb0aa161268376791d902407f99c
+SHA1: 2823598581acf97863f2e481e5a925308ecc5624
+MD5sum: 9fd3d6c1fee6b35b63960f7294d3d6b2
 Description: Armbian improved ZShell
 
