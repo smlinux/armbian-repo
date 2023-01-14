@@ -4,42 +4,42 @@ Hash: SHA512
 Origin: smlinux.github.io/armbian-repo/debian
 Label: smlinux.github.io/armbian-repo/debian
 Codename: bullseye
-Date: Sun, 08 Jan 2023 08:03:33 UTC
+Date: Sat, 14 Jan 2023 05:32:43 UTC
 Architectures: arm64 armhf
 Components: main
 Description: smlinux armbian repository for debian
 MD5Sum:
- 3704464ceda28ad69a482d5bdfb626c5 10175 main/binary-arm64/Packages
- 0c78f3fd910c26d76fec82e90c110a4a 2846 main/binary-arm64/Packages.gz
+ 6fdfe5aa55b1b54c05d26fa1f88072f4 10175 main/binary-arm64/Packages
+ 9dd6e7426812146d8f58f8d3b97f19b0 2849 main/binary-arm64/Packages.gz
  e90bfe74dcfb16748670f3bc82654853 178 main/binary-arm64/Release
- 899e2d29c415e2b7b57652e4689c902c 2360 main/binary-armhf/Packages
- b94542a43e9e2b35bff629937416e5b8 1026 main/binary-armhf/Packages.gz
+ 7f377194fb413c4cf5e30f7d5cfe4ecd 2360 main/binary-armhf/Packages
+ 4a2284fe8c882fe6a8ad46be73cfa652 1032 main/binary-armhf/Packages.gz
  4e18cae374d6a26af859e26842fd12c3 178 main/binary-armhf/Release
 SHA1:
- 976761dfe10b3c190a0aa8733b75bc40c79081ee 10175 main/binary-arm64/Packages
- 5e1480f57c1d076d6237cba326101f67df1bd44d 2846 main/binary-arm64/Packages.gz
+ 41327a3d532494547e258d438865ce6088cd858d 10175 main/binary-arm64/Packages
+ 66622e9b2a18929a4384e25a30b759f42510574e 2849 main/binary-arm64/Packages.gz
  ed2c1811b910f9bb01b1fc5cbd2cf59060214979 178 main/binary-arm64/Release
- 56617093b4c681677b747472cb83aaa069dd5673 2360 main/binary-armhf/Packages
- a699df0fdf66bbd3bb1db466afc7ed20e7f505e5 1026 main/binary-armhf/Packages.gz
+ 73082f9bb0369f525bfdea164b3b8fe8621b3f23 2360 main/binary-armhf/Packages
+ f18fde939b291f6079f601987c4f59ea4088c81f 1032 main/binary-armhf/Packages.gz
  2d6e4239589e7572a785118dbde51fe45a62d569 178 main/binary-armhf/Release
 SHA256:
- c7ed52e210af05c19a2b17e358349dba1910b46b491c6c692ad76a20d2cea001 10175 main/binary-arm64/Packages
- 0345307907db61c64c6e18e8c66182c03dd6ec8490f4cb12eb2716497b48e084 2846 main/binary-arm64/Packages.gz
+ 09f64ec3166da8c2c079927a4ddbeb53aa73e647c615314db0fcd235d1f0fc57 10175 main/binary-arm64/Packages
+ fd1a4eae9bf22b2dfcb5dc5466ddd05d832c25c18e58a0b92f92c6202c62889d 2849 main/binary-arm64/Packages.gz
  e0716c8841ed6a4706593fcc4fa6796dcb79218c1af3f8adc5c9b97e8646fb52 178 main/binary-arm64/Release
- 6294a5852573a8252dc9e9f6a55102bf95c489bc0c785b5bad07f78676e06784 2360 main/binary-armhf/Packages
- 54d5e80e75a6df1ab7397f17961dba7bf46e02afcd0e46acf9db777454608bb6 1026 main/binary-armhf/Packages.gz
+ ba7b20ad58f18e56c7f19d6f1e558ee2b8730911ad68fdbeb6b8b8bd71f911f1 2360 main/binary-armhf/Packages
+ 5d731c04fc1b78b20e4bef8f92667c16a8f117b1c545c4d6014e71273578c61c 1032 main/binary-armhf/Packages.gz
  1ecdf2013a909243489c3ea4287550e6fb00281710010e1f3fb86a7bbadd8c12 178 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEw0tQEI1hGzKUPUHTuVv+1mjK+gIFAmO6eNUACgkQuVv+1mjK
-+gIkyQv/Vq1rpVXrdmtsEQj5JMVmkcWw1QVhcWxVDEjG3ViMohs1eUSLZmwv5USX
-/D/VjQuFKECYZmb7Mq5ZMlaS0ei7d5qqcFuN/Ajik/m2V5lfN4vLV+TGs+4j2kU6
-x/NrffyxgUdT4XVJSvICQm1IfeydxEpw7opzsfvu4KbG2mY5lZRpJAiQDTk+0HV/
-/ZzJrwgO0meu4l/E+zTV+7PEL08S4AkOPcqtgBQyQ95JFVzeoV0TM7Yu1qaqfGxg
-vK5cWuTVNu7UlxRKjTe3PkS8Cpk54lzjQJBajRZnLmXqJcIgXM2vUWzbjB5Oad0s
-zHDMrmCD+34zdbjSniyWxXzQRDKwKOM0pZ1AhQVjPuh1J77ZVAteLN7je8YK+d8i
-wz5EIFTWgrrhFclwPwmOpr/lYjtyIDlayZxV6ajkqvo6ojOd7jt4MzdxSsQ9hsEp
-1yJ/pIzmtVJuV+1lCWCw0uUSrxHaV5qh78aZqg7o94cZiay/W3Mm6aEAfUawd9Rf
-ZblV/uSF
-=Fl8k
+iQGzBAEBCgAdFiEEw0tQEI1hGzKUPUHTuVv+1mjK+gIFAmPCPnsACgkQuVv+1mjK
++gK4pAv+IMM/HC5peYXjKx56zdqzLuaFbK3g3+FxQjzDRzKd/F1ER0cN22NVPvFm
+SUaiwndiE6Jj6hvON9scB/HGJq0XT0K6XhixQf9w+yaK/TX+xPg0csHHNB0DgKDy
+emV/Vbxo7x8x6RSZa1zgA3X3WI+rntkgw8WOLissyK/l6clK5ChJvoYNigyXKeMG
+/aQbR3nvgx7KAEd7daEO4Lzbn8OWUdAL9pmMC2XBsZ1IKz7mA50WSgo+ZO01IKGx
+dTnSFQGVP9JDzbFVJ079CFq+T9iWf8fSofjkm6g3DX9viy/t1WE7CwY7qvDoVJfU
+NUlAaJaBIXIDxHycf07hKx5QtvO4Uvl7eA/LCVj6kNZGZpi2/cUqCWLUd6I5MBCT
+nKcvfFLwXJIetXVl3Rp7mUxQZUe4AjPDBub5y5P2hjShnFnv6rH0K9FyN3PWHzYG
+DKG+/ckJRWT3KrwoBB6f2hFOze5MncDAURJH61rQJIwYrMNNpcYcFNTlIqK61SCP
+lgx6Kz9f
+=+ZFd
 -----END PGP SIGNATURE-----
