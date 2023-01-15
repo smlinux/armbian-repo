@@ -1,27 +1,27 @@
 Origin: smlinux.github.io/armbian-repo/debian-edge
 Label: smlinux.github.io/armbian-repo/debian-edge
 Codename: bullseye
-Date: Sat, 14 Jan 2023 06:46:28 UTC
+Date: Sun, 15 Jan 2023 04:05:13 UTC
 Architectures: arm64 armhf
 Components: main
 Description: smlinux armbian edge repository for debian
 MD5Sum:
- 128c051d59f008101fd2dd0fdb76e580 10052 main/binary-arm64/Packages
- 39c7f7a3bf41a39facf4fcfef0a41b6f 2851 main/binary-arm64/Packages.gz
+ 92125d357cc76ac18838755a2d3ab02d 10052 main/binary-arm64/Packages
+ bb58c587a6a3048117880a9adc7cb9ff 2859 main/binary-arm64/Packages.gz
  d17f131e6a466e0bfa0a8682bc1cccb9 193 main/binary-arm64/Release
  9fb5e2a77bd93339c5684a6f7a1b0c10 2360 main/binary-armhf/Packages
  35bc7df50605d8f744c16f5abd269982 1028 main/binary-armhf/Packages.gz
  5f47fb40db8d91d6906ff64a798c47f9 193 main/binary-armhf/Release
 SHA1:
- ae7b7113a97b55753d10bf645d8e4c039a837ae1 10052 main/binary-arm64/Packages
- d651dba9b13d17cd44f4eedab5cd5934a023991f 2851 main/binary-arm64/Packages.gz
+ 590846e98dd812d350e78776460f49231e252d1f 10052 main/binary-arm64/Packages
+ aa7476b12ba1504f4060c1371125b972e2169113 2859 main/binary-arm64/Packages.gz
  0f55f8a2917b976b9d5b33c5c4fffc8c3b7bd33e 193 main/binary-arm64/Release
  6c8b2bec06e5f4d48a5661554f8975facc70b15c 2360 main/binary-armhf/Packages
  cb8abcd16ac877f847ec51344e5e204957b9895d 1028 main/binary-armhf/Packages.gz
  b936d85bafdab5d10adce119f9a32c9a3bfad24c 193 main/binary-armhf/Release
 SHA256:
- e9a46a515df4381c99c948e1e4f03230b3b09214176823a1dd4d8eeaade3287a 10052 main/binary-arm64/Packages
- 06bb2fb9e14a22431e06f0fa2c80455fbd4056545a55fb0dbb1de2e314879eed 2851 main/binary-arm64/Packages.gz
+ 6329849697026f3eac8f9610bfa29e8717c8c4399ba35b2684deee949575d8f4 10052 main/binary-arm64/Packages
+ dd3e66629b868f279bd298ae42f059c98fc096ed28d23ab7d9b7a989411b133f 2859 main/binary-arm64/Packages.gz
  d273747ca16443e5f5bb734ce7d45828a3fa741bdee2e8d76ed29557062272cc 193 main/binary-arm64/Release
  43bc6815601bba46c60f73b53dfc86ffaf5573da7a4555d4da5b0b388a6ce970 2360 main/binary-armhf/Packages
  ce360d76be4af2ca945d9229f3a8a4eb696e6b58b95fff5bf0bf7bfef278046a 1028 main/binary-armhf/Packages.gz
