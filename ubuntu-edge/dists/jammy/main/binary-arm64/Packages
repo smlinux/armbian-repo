@@ -1,25 +1,25 @@
 Package: armbian-bsp-cli-tanix-tx6
-Version: 23.02.0-trunk-20230114-06
+Version: 23.02.0-trunk-20230119-06
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 1
 Depends: bash, linux-base, u-boot-tools, initramfs-tools, lsb-release, fping
 Provides: linux-jammy-root-legacy-tanix-tx6, linux-jammy-root-current-tanix-tx6, linux-jammy-root-edge-tanix-tx6
 Suggests: armbian-config
-Replaces: zram-config, base-files, armbian-tools-jammy, linux-jammy-root-legacy-tanix-tx6 (<< 23.02.0-trunk-20230114-06~), linux-jammy-root-current-tanix-tx6 (<< 23.02.0-trunk-20230114-06~), linux-jammy-root-edge-tanix-tx6 (<< 23.02.0-trunk-20230114-06~)
-Breaks: linux-jammy-root-legacy-tanix-tx6 (<< 23.02.0-trunk-20230114-06~), linux-jammy-root-current-tanix-tx6 (<< 23.02.0-trunk-20230114-06~), linux-jammy-root-edge-tanix-tx6 (<< 23.02.0-trunk-20230114-06~)
+Replaces: zram-config, base-files, armbian-tools-jammy, linux-jammy-root-legacy-tanix-tx6 (<< 23.02.0-trunk-20230119-06~), linux-jammy-root-current-tanix-tx6 (<< 23.02.0-trunk-20230119-06~), linux-jammy-root-edge-tanix-tx6 (<< 23.02.0-trunk-20230119-06~)
+Breaks: linux-jammy-root-legacy-tanix-tx6 (<< 23.02.0-trunk-20230119-06~), linux-jammy-root-current-tanix-tx6 (<< 23.02.0-trunk-20230119-06~), linux-jammy-root-edge-tanix-tx6 (<< 23.02.0-trunk-20230119-06~)
 Recommends: bsdutils, parted, util-linux, toilet
 Priority: optional
 Section: kernel
-Filename: pool/main/a/armbian-bsp-cli-tanix-tx6/armbian-bsp-cli-tanix-tx6_23.02.0-trunk-20230114-06_arm64.deb
-Size: 484676
-SHA256: f2f69e92c07cd96194f17324c4827e6e0977d45985c717db41f1e5fd27be500b
-SHA1: 88f77d4f54dabaa069d4e72c8115c0867639d3f3
-MD5sum: b1e3cdda6aa75de283234c1d6906591f
+Filename: pool/main/a/armbian-bsp-cli-tanix-tx6/armbian-bsp-cli-tanix-tx6_23.02.0-trunk-20230119-06_arm64.deb
+Size: 484632
+SHA256: 0eae4a3792552f6589e2747c17ce448a24f4ff70679f8076e805501bb32433dd
+SHA1: 6db4d12a25418f619c55c1b4f03858b0126500ff
+MD5sum: 48c1c65ee78a8ed8eebed205c2702824
 Description: Armbian board support files for tanix-tx6
 
 Package: armbian-config
-Version: 23.02.0-trunk-20230114-06
+Version: 23.02.0-trunk-20230119-06
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Replaces: armbian-bsp, neofetch
@@ -28,54 +28,54 @@ Recommends: armbian-bsp
 Suggests: libpam-google-authenticator, qrencode, network-manager, sunxi-tools
 Priority: optional
 Section: utils
-Filename: pool/main/a/armbian-config/armbian-config_23.02.0-trunk-20230114-06_all.deb
-Size: 129800
-SHA256: 321daa16799491ceb9e020e232db4c3a74ea1bca014b53007ef98a80c25868aa
-SHA1: 647e26e34919f0f88c3efe970b179bb2a9cc81bd
-MD5sum: f2c7eb52150bab4784a8d4d5d7ffc26c
+Filename: pool/main/a/armbian-config/armbian-config_23.02.0-trunk-20230119-06_all.deb
+Size: 129808
+SHA256: 2fdcd156cc6b15995d093ff320298edfb815c454dc7911e404e77dd438c918c6
+SHA1: 472b9f83a161e8df8a71f4cbb94d65259d5f5d6e
+MD5sum: 72a23d1ac30da282ba5d61593ef857df
 Description: Armbian configuration utility
 
 Package: armbian-firmware
-Version: 23.02.0-trunk-20230114-06
+Version: 23.02.0-trunk-20230119-06
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 1
 Replaces: linux-firmware, firmware-brcm80211, firmware-ralink, firmware-samsung, firmware-realtek, armbian-firmware-full
 Priority: optional
 Section: kernel
-Filename: pool/main/a/armbian-firmware/armbian-firmware_23.02.0-trunk-20230114-06_all.deb
-Size: 9226056
-SHA256: ff3e48f61cb8c37648095131f0c2b4ff422d44709a5284732a1b6e3513c3f372
-SHA1: a6fc322a4599f26aee131ee7983ebd4c67226e4e
-MD5sum: 05f02d20c52b1e761bf9782595baff81
+Filename: pool/main/a/armbian-firmware/armbian-firmware_23.02.0-trunk-20230119-06_all.deb
+Size: 9226216
+SHA256: 63d59d143f0693d7af0b3123148beef866ea59c9f24e39a75390049ab177f1e5
+SHA1: 4860f86f1227b1be3738a078bf91176110f2b381
+MD5sum: ccdf3fbeaebbfa4f602588b8bfbc495f
 Description: Linux firmware
 
 Package: armbian-plymouth-theme
-Version: 23.02.0-trunk-20230114-06
+Version: 23.02.0-trunk-20230119-06
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Depends: plymouth, plymouth-themes
 Priority: optional
 Section: universe/x11
-Filename: pool/main/a/armbian-plymouth-theme/armbian-plymouth-theme_23.02.0-trunk-20230114-06_all.deb
-Size: 120796
-SHA256: 4ba80d1bb8692c78b52864da5ba137762c66af95e75cd06cedcb56c8dfecf70e
-SHA1: bca43e5c2d3a7f183971697f24d1870650c7d824
-MD5sum: 758599e1c487a3aff743821871d5e89a
+Filename: pool/main/a/armbian-plymouth-theme/armbian-plymouth-theme_23.02.0-trunk-20230119-06_all.deb
+Size: 120784
+SHA256: 3b213026ecad27cdae58c98ba55936bf844013e1134b168854312561f8d1d8dd
+SHA1: 2b95ca2769cb8bee5f1ca8a5eb7f7c2c84a7fd55
+MD5sum: 86550b5ab6fe858fd83cbdb9c111fa11
 Description: boot animation, logger and I/O multiplexer - armbian theme
 
 Package: armbian-zsh
-Version: 23.02.0-trunk-20230114-06
+Version: 23.02.0-trunk-20230119-06
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Depends: zsh, tmux
 Priority: optional
 Section: utils
-Filename: pool/main/a/armbian-zsh/armbian-zsh_23.02.0-trunk-20230114-06_all.deb
-Size: 2692760
-SHA256: 8f12b18920c8e0e7a1a126dd7fa805aacd143585cfa2cc6cade68e93f6cfc60d
-SHA1: c7063f9c4263ea0e081bcb382a79f3d0dbd5fec3
-MD5sum: b53981e89ccab2c2376a0efa1d5ea407
+Filename: pool/main/a/armbian-zsh/armbian-zsh_23.02.0-trunk-20230119-06_all.deb
+Size: 2736136
+SHA256: a589429c357ef1c1e63259520526504dae0146f215b89106f72b702c12ce308f
+SHA1: f9fb28f7937baf241d6ea74d5898c5a81f164370
+MD5sum: 03b8d95648e798e51a648c62842d5137
 Description: Armbian improved ZShell
 
 Package: linux-dtb-edge-sunxi64
@@ -98,8 +98,8 @@ Description: Armbian Linux DTB, version 6.0.11-sunxi64 edge
  This package contains device blobs from the Linux kernel, version 6.0.11-sunxi64
 
 Package: linux-dtb-edge-tanix-tx6
-Source: linux-6.1.6-tanix-tx6
-Version: 23.02.0-trunk-20230115-04
+Source: linux-6.1.7-tanix-tx6
+Version: 23.02.0-trunk-20230119-06
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 1167
@@ -109,13 +109,13 @@ Provides: armbian-edge, linux-dtb, linux-dtb-armbian
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-6.1.6-tanix-tx6/linux-dtb-edge-tanix-tx6_23.02.0-trunk-20230115-04_arm64.deb
-Size: 50228
-SHA256: 7f45dbd266fd32f43831698131f9203ce4b75ba4f23f4cf8c633728e2b77ae55
-SHA1: 7d4677967cdcc364e8ad467219585a24a737343f
-MD5sum: 3fcbe4c7baf0fab861ab6afde6a10801
-Description: Armbian Linux DTB, version 6.1.6-tanix-tx6 edge
- This package contains device blobs from the Linux kernel, version 6.1.6-tanix-tx6
+Filename: pool/main/l/linux-6.1.7-tanix-tx6/linux-dtb-edge-tanix-tx6_23.02.0-trunk-20230119-06_arm64.deb
+Size: 50312
+SHA256: 516c9725e84ef06b7ee8dc3f56d82854a74065e24f9f6d03df31d976a96701da
+SHA1: 013ec7b8d56bc3d61c9f4901ee5c6d0d407ecbb1
+MD5sum: fac454661a0fba23791e4a8c8d447018
+Description: Armbian Linux DTB, version 6.1.7-tanix-tx6 edge
+ This package contains device blobs from the Linux kernel, version 6.1.7-tanix-tx6
 
 Package: linux-headers-edge-sunxi64
 Source: linux-6.0.11-sunxi64
@@ -139,11 +139,11 @@ Description: Linux kernel headers for 6.0.11-sunxi64 on arm64 edge
  This is useful for people who need to build external modules
 
 Package: linux-headers-edge-tanix-tx6
-Source: linux-6.1.6-tanix-tx6
-Version: 23.02.0-trunk-20230115-04
+Source: linux-6.1.7-tanix-tx6
+Version: 23.02.0-trunk-20230119-06
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
-Installed-Size: 80213
+Installed-Size: 80212
 Depends: make, gcc, libc6-dev, bison, flex, libssl-dev
 Breaks: linux-headers-edge-sunxi64
 Replaces: linux-headers-edge-sunxi64
@@ -151,13 +151,13 @@ Provides: armbian-edge, linux-headers, linux-headers-armbian
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-6.1.6-tanix-tx6/linux-headers-edge-tanix-tx6_23.02.0-trunk-20230115-04_arm64.deb
-Size: 12396232
-SHA256: 004c70a7ed8848882acb713044894d35232b1d4393c1a6b4576034890672a017
-SHA1: 65b6a8b9eb1148042bd7bfe2a14e86a1fb5f29eb
-MD5sum: bf283a9ebbafce08c6ddc3b95966ff86
-Description: Linux kernel headers for 6.1.6-tanix-tx6 on arm64 edge
- This package provides kernel header files for 6.1.6-tanix-tx6 on arm64
+Filename: pool/main/l/linux-6.1.7-tanix-tx6/linux-headers-edge-tanix-tx6_23.02.0-trunk-20230119-06_arm64.deb
+Size: 12396008
+SHA256: 3438cf24f1c925145bfe54ecbf4c3669b1010aaf9fd03d2d6312c1bed8934b6f
+SHA1: bd0fde0d6be1f877accddf8c9f4953a248f915fb
+MD5sum: 17fd3a3bd5790f117c56fa54e4724925
+Description: Linux kernel headers for 6.1.7-tanix-tx6 on arm64 edge
+ This package provides kernel header files for 6.1.7-tanix-tx6 on arm64
  .
  This is useful for people who need to build external modules
 
@@ -182,29 +182,29 @@ Description: Linux kernel, armbian version 6.0.11-sunxi64 edge
  files, version: 6.0.11-sunxi64.
 
 Package: linux-image-edge-tanix-tx6
-Source: linux-6.1.6-tanix-tx6
-Version: 23.02.0-trunk-20230115-04
+Source: linux-6.1.7-tanix-tx6
+Version: 23.02.0-trunk-20230119-06
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
-Installed-Size: 99753
+Installed-Size: 99755
 Breaks: linux-image-edge-sunxi64
 Replaces: linux-image-edge-sunxi64
 Provides: armbian-edge, linux-image, linux-image-armbian
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-6.1.6-tanix-tx6/linux-image-edge-tanix-tx6_23.02.0-trunk-20230115-04_arm64.deb
-Size: 20426908
-SHA256: b1a9d343337ec00a72c9a86cf12548f4d922caa061563c72f8d6abc26e9beebd
-SHA1: 225e49ddc57a68a2342c7756a82885eb0e4c2d9f
-MD5sum: 38e05ca37ff40dbbbccbaa8a5081d636
-Description: Linux kernel, armbian version 6.1.6-tanix-tx6 edge
+Filename: pool/main/l/linux-6.1.7-tanix-tx6/linux-image-edge-tanix-tx6_23.02.0-trunk-20230119-06_arm64.deb
+Size: 20393556
+SHA256: 323daf6113eb174d348d408fb710bbdfeb9af97a09cfcc4f36fb294d36022c65
+SHA1: e611127400f71afb02b410d92fcf508387da672a
+MD5sum: 6fc69570f9255f993c99d736263928a0
+Description: Linux kernel, armbian version 6.1.7-tanix-tx6 edge
  This package contains the Linux kernel, modules and corresponding other
- files, version: 6.1.6-tanix-tx6.
+ files, version: 6.1.7-tanix-tx6.
 
 Package: linux-libc-dev
-Source: linux-6.1.6-tanix-tx6
-Version: 23.02.0-trunk-20230115-04
+Source: linux-6.1.7-tanix-tx6
+Version: 23.02.0-trunk-20230119-06
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 6505
@@ -215,17 +215,17 @@ Multi-Arch: same
 Homepage: https://www.kernel.org/
 Priority: optional
 Section: devel
-Filename: pool/main/l/linux-6.1.6-tanix-tx6/linux-libc-dev_23.02.0-trunk-20230115-04_arm64.deb
-Size: 1253364
-SHA256: 895fcde0c83261f435e25e842001602a8818d83ac72add505583c2ebcf5cd218
-SHA1: 0386e469f5e1b10a99fe8efe549b728c25223e3c
-MD5sum: 560d233887d9109c16c5fcba3f28fb19
+Filename: pool/main/l/linux-6.1.7-tanix-tx6/linux-libc-dev_23.02.0-trunk-20230119-06_arm64.deb
+Size: 1253456
+SHA256: 9ba1c196be92a0e4e646a3ed4f897222af60310a57db966d16665ac2fb2fbbf9
+SHA1: 5c15deda5d69007f3c6fc0ff8c380015c1a6eea5
+MD5sum: e56150193c174a31366a8308e063bb69
 Description: Armbian Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
 Package: linux-u-boot-tanix-tx6-edge
-Version: 23.02.0-trunk-20230115-04
+Version: 23.02.0-trunk-20230119-06
 Architecture: arm64
 Maintainer: smlinux <smartlinux@ya.ru>
 Installed-Size: 1
@@ -234,10 +234,10 @@ Replaces: armbian-u-boot
 Conflicts: armbian-u-boot, u-boot-sunxi
 Priority: optional
 Section: kernel
-Filename: pool/main/l/linux-u-boot-tanix-tx6-edge/linux-u-boot-tanix-tx6-edge_23.02.0-trunk-20230115-04_arm64.deb
-Size: 221364
-SHA256: ce0b338b0054bdf25b6d42b756d24d91c0afb4337ad1deff3edbaf35115fed95
-SHA1: f61f4481aababc7b0dca08bf4acd20eedb80ba0d
-MD5sum: b4ab9e87fc5e2223fd888cd7fa2428b0
+Filename: pool/main/l/linux-u-boot-tanix-tx6-edge/linux-u-boot-tanix-tx6-edge_23.02.0-trunk-20230119-06_arm64.deb
+Size: 221524
+SHA256: 038f06ea36f8b82ed69938c5880ae7f53389df30800481f9a08282fe5941f8a7
+SHA1: 858e007801f9c7a98fc5ce1c57bc1a25385c5531
+MD5sum: 7e578787afd9b0f0256c97c2537be34b
 Description: Uboot loader 2022.10
 
