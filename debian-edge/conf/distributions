@@ -1,7 +1,7 @@
 Origin: smlinux.github.io/armbian-repo/debian-edge
 Label: smlinux.github.io/armbian-repo/debian-edge
 Codename: bullseye
-Architectures: arm64 armhf
+Architectures: amd64 arm64 armhf i386
 Components: main
 Description: smlinux armbian edge repository for debian
 SignWith: 68CAFA02
