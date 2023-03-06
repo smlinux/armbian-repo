@@ -1,0 +1,62 @@
+Package: linux-headers-edge-amd64
+Source: linux-6.2.2-amd64
+Version: 23.05.0-trunk-20230306-17
+Architecture: amd64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 84053
+Depends: make, gcc, libc6-dev, bison, flex, libssl-dev
+Provides: armbian-edge, linux-headers, linux-headers-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-6.2.2-amd64/linux-headers-edge-amd64_23.05.0-trunk-20230306-17_amd64.deb
+Size: 13265592
+SHA256: 648768164b29f31c47c54d16a8e1beb3351fb561d547cbd69888ea833d76625e
+SHA1: 8ba9ffd1a18e195b069b508055f47202dbae3f67
+MD5sum: b184ac77773481f8f31e1618f09cf286
+Description: Linux kernel headers for 6.2.2-amd64 on amd64 edge
+ This package provides kernel header files for 6.2.2-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-edge-amd64
+Source: linux-6.2.2-amd64
+Version: 23.05.0-trunk-20230306-17
+Architecture: amd64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 467469
+Provides: armbian-edge, linux-image, linux-image-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-6.2.2-amd64/linux-image-edge-amd64_23.05.0-trunk-20230306-17_amd64.deb
+Size: 84125184
+SHA256: 516b71b5a29a15c58c93a5cdc160a62b689f1b98da6bfa24e513acc0c469afca
+SHA1: fb8a58a7aff22eacc0422f71f7dbe5c033036dcf
+MD5sum: 1edd53ee288aa518a5ad48560b9c6824
+Description: Linux kernel, armbian version 6.2.2-amd64 edge
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.2-amd64.
+
+Package: linux-libc-dev
+Source: linux-6.2.2-amd64
+Version: 23.05.0-trunk-20230306-17
+Architecture: amd64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 6679
+Conflicts: linux-kernel-headers
+Replaces: linux-kernel-headers
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-6.2.2-amd64/linux-libc-dev_23.05.0-trunk-20230306-17_amd64.deb
+Size: 1287300
+SHA256: 84298df6bf264a2a0677d71f3daf100a7f2e00da960e9fb812caa64848bbb17c
+SHA1: c7bd770c41df03788b4e0e9b06f91f34bb68ee7d
+MD5sum: d64beb22b4d60b8bc80e807df2a03243
+Description: Armbian Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
