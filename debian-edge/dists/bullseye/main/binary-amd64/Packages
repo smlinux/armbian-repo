@@ -1,0 +1,127 @@
+Package: armbian-bsp-cli-uefi-x86-grub
+Version: 23.05.0-trunk-20230312-05
+Architecture: amd64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 1
+Depends: bash, linux-base, u-boot-tools, initramfs-tools, lsb-release, fping
+Provides: linux-bullseye-root-legacy-uefi-x86, linux-bullseye-root-current-uefi-x86, linux-bullseye-root-edge-uefi-x86
+Suggests: armbian-config
+Replaces: zram-config, base-files, armbian-tools-bullseye, linux-bullseye-root-legacy-uefi-x86 (<< 23.05.0-trunk-20230312-05~), linux-bullseye-root-current-uefi-x86 (<< 23.05.0-trunk-20230312-05~), linux-bullseye-root-edge-uefi-x86 (<< 23.05.0-trunk-20230312-05~)
+Breaks: linux-bullseye-root-legacy-uefi-x86 (<< 23.05.0-trunk-20230312-05~), linux-bullseye-root-current-uefi-x86 (<< 23.05.0-trunk-20230312-05~), linux-bullseye-root-edge-uefi-x86 (<< 23.05.0-trunk-20230312-05~)
+Recommends: bsdutils, parted, util-linux, toilet
+Priority: optional
+Section: kernel
+Filename: pool/main/a/armbian-bsp-cli-uefi-x86-grub/armbian-bsp-cli-uefi-x86-grub_23.05.0-trunk-20230312-05_amd64.deb
+Size: 134548
+SHA256: 3d40ab4f588c606b2bb9265a8bf64e72e3c76449ba0c8e8d17d4cf2680d4050b
+SHA1: 8bc0dc3d43c0a16647a9cfbc9e2729cfe7aa02f7
+MD5sum: 0f442f23f6822200d83adb19547cffc1
+Description: Armbian board support files for uefi-x86
+
+Package: armbian-config
+Version: 23.05.0-trunk-20230312-05
+Architecture: all
+Maintainer: smlinux <smartlinux@ya.ru>
+Replaces: armbian-bsp, neofetch
+Depends: bash, iperf3, psmisc, curl, bc, expect, dialog, pv, zip, 		debconf-utils, unzip, build-essential, html2text, html2text, dirmngr, software-properties-common, debconf, jq
+Recommends: armbian-bsp
+Suggests: libpam-google-authenticator, qrencode, network-manager, sunxi-tools
+Priority: optional
+Section: utils
+Filename: pool/main/a/armbian-config/armbian-config_23.05.0-trunk-20230312-05_all.deb
+Size: 129924
+SHA256: d5b0410efa5fb274f480436b6e539d8aa61746b3c48e2ea00e896c5754223d07
+SHA1: 98bfdc4f2d195d90a004f00abb2485bcfaeb9948
+MD5sum: 9cd59d04a95314223780aa34f1a3201f
+Description: Armbian configuration utility
+
+Package: armbian-plymouth-theme
+Version: 23.05.0-trunk-20230312-05
+Architecture: all
+Maintainer: smlinux <smartlinux@ya.ru>
+Depends: plymouth, plymouth-themes
+Priority: optional
+Section: universe/x11
+Filename: pool/main/a/armbian-plymouth-theme/armbian-plymouth-theme_23.05.0-trunk-20230312-05_all.deb
+Size: 120780
+SHA256: 025d5d74bd72f262baffcfe1251213c6849834300675a85fd51d4ce2a8c0965c
+SHA1: 8e971640f12d2d427e270e7d8ca5647fa43dc424
+MD5sum: 0ca57f39e481cd322c432a0ee99380a8
+Description: boot animation, logger and I/O multiplexer - armbian theme
+
+Package: armbian-zsh
+Version: 23.05.0-trunk-20230312-05
+Architecture: all
+Maintainer: smlinux <smartlinux@ya.ru>
+Depends: zsh, tmux
+Priority: optional
+Section: utils
+Filename: pool/main/a/armbian-zsh/armbian-zsh_23.05.0-trunk-20230312-05_all.deb
+Size: 4175920
+SHA256: d4f21cd88769630231cd304cfcfbb095bc6b53cfe3b49b780f2f4db08ed31c6c
+SHA1: 96cf36cc3659048b31fed498f9ae1cb80ebd92cc
+MD5sum: 77b9169eae588e004ca465fd9a6ad2a9
+Description: Armbian improved ZShell
+
+Package: linux-headers-edge-amd64
+Source: linux-6.2.5-amd64
+Version: 23.05.0-trunk-20230312-05
+Architecture: amd64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 84060
+Depends: make, gcc, libc6-dev, bison, flex, libssl-dev
+Provides: armbian-edge, linux-headers, linux-headers-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-6.2.5-amd64/linux-headers-edge-amd64_23.05.0-trunk-20230312-05_amd64.deb
+Size: 13269144
+SHA256: 957fb0c90294d0fa210502145a8f12786e702878ae83cd7deea49e940a13971b
+SHA1: 450fc7c22f99e74a812d8a428a6a0dddad3162cf
+MD5sum: d0d3a8c7d5aed7a1016faaae69c52ac3
+Description: Linux kernel headers for 6.2.5-amd64 on amd64 edge
+ This package provides kernel header files for 6.2.5-amd64 on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-edge-amd64
+Source: linux-6.2.5-amd64
+Version: 23.05.0-trunk-20230312-05
+Architecture: amd64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 459365
+Provides: armbian-edge, linux-image, linux-image-armbian
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-6.2.5-amd64/linux-image-edge-amd64_23.05.0-trunk-20230312-05_amd64.deb
+Size: 83158592
+SHA256: b2992a180d589abae773ffe4689ce2cca10d4e26ea1571e681d4cd46d858b39d
+SHA1: c9d39bafe143ce257ec3c54282649ccbb8a17685
+MD5sum: 820543d761cc7c32d573de643a486dd5
+Description: Linux kernel, armbian version 6.2.5-amd64 edge
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.2.5-amd64.
+
+Package: linux-libc-dev
+Source: linux-6.2.5-amd64
+Version: 23.05.0-trunk-20230312-05
+Architecture: amd64
+Maintainer: smlinux <smartlinux@ya.ru>
+Installed-Size: 6679
+Conflicts: linux-kernel-headers
+Replaces: linux-kernel-headers
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-6.2.5-amd64/linux-libc-dev_23.05.0-trunk-20230312-05_amd64.deb
+Size: 1287532
+SHA256: 7aa74e44fa55bb84221f683936e6d3224ba82a3106347465638a6f2ae7849ccf
+SHA1: 59f2b26ade6967c9db6a1eb788b4c353dd484420
+MD5sum: 17eca57054485b866a75424c77bf3b05
+Description: Armbian Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+

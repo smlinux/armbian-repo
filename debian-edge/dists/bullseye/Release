@@ -1,28 +1,46 @@
 Origin: smlinux.github.io/armbian-repo/debian-edge
 Label: smlinux.github.io/armbian-repo/debian-edge
 Codename: bullseye
-Date: Tue, 24 Jan 2023 12:40:15 UTC
-Architectures: arm64 armhf
+Date: Sun, 12 Mar 2023 07:16:58 UTC
+Architectures: amd64 arm64 armhf i386
 Components: main
 Description: smlinux armbian edge repository for debian
 MD5Sum:
- 39bab8de36be3a135bf3a7a771470098 10052 main/binary-arm64/Packages
- 8c8eb64b0819153a80548ac3657c1c09 2851 main/binary-arm64/Packages.gz
+ 2194fa66f7d1675d042107f30dfb0e7a 5466 main/binary-amd64/Packages
+ 22ea67f03ad020cb1e77406d1ea6c0d6 1921 main/binary-amd64/Packages.gz
+ c3bee3c59a1b48937508aac146c97f10 193 main/binary-amd64/Release
+ 3135d163611c13a10879f4dc358ed048 10052 main/binary-arm64/Packages
+ 92fb2753cb39e567e4590fefb6423424 2872 main/binary-arm64/Packages.gz
  d17f131e6a466e0bfa0a8682bc1cccb9 193 main/binary-arm64/Release
- a02c72806d4117d2c65f90a0507aeea7 2360 main/binary-armhf/Packages
- 0077bf9c13ac5f4a8db0818a35889563 1030 main/binary-armhf/Packages.gz
+ 2b5289df796e2e3d1f1d2093db46f5fc 2360 main/binary-armhf/Packages
+ 9fdcee0801e61d0a6fe4e81d3798281a 1043 main/binary-armhf/Packages.gz
  5f47fb40db8d91d6906ff64a798c47f9 193 main/binary-armhf/Release
+ 975215c87b0b9841550904d4dd96c346 1774 main/binary-i386/Packages
+ 1c04511ba7986bef79cdb9fbd85363db 844 main/binary-i386/Packages.gz
+ 2695ce881f1dfc1c35a9f09c80b74b0e 192 main/binary-i386/Release
 SHA1:
- 8a24df00256329e30f872b26a8db4175a9bc128a 10052 main/binary-arm64/Packages
- 4ae4b5542c25d10f9ef61e4d20dd7bd77bcc8fdf 2851 main/binary-arm64/Packages.gz
+ 189262eb8ec42ddbbfcf57efd1d80fed579bfd20 5466 main/binary-amd64/Packages
+ 843c10c1f4bc9c7dc22c69806bb170cf0d8456f8 1921 main/binary-amd64/Packages.gz
+ adba8ee2c02166907d55f0aafd0c34d1470bdcc0 193 main/binary-amd64/Release
+ 774443b6e351395e423dc689d1ef17313ca2075d 10052 main/binary-arm64/Packages
+ cd51c96aa5451d5c391f445980e2eaee70e21f72 2872 main/binary-arm64/Packages.gz
  0f55f8a2917b976b9d5b33c5c4fffc8c3b7bd33e 193 main/binary-arm64/Release
- 9e9543bdaeccd86a20605f74ff17ce412b5c9c3d 2360 main/binary-armhf/Packages
- a82342115bb3dd8e2fc5171a3568cac9512c5585 1030 main/binary-armhf/Packages.gz
+ 02e45d692c080792f090f585a2523045ad4f4f0e 2360 main/binary-armhf/Packages
+ f2e680f6e2adfff2621776f5a9018d59a20ae024 1043 main/binary-armhf/Packages.gz
  b936d85bafdab5d10adce119f9a32c9a3bfad24c 193 main/binary-armhf/Release
+ a5453a2f8221a8a00a65a81b63da8c1d5dcb2075 1774 main/binary-i386/Packages
+ 79b075f5d11731c6430dc9f361736e192ea138aa 844 main/binary-i386/Packages.gz
+ 064526c90f3b2c3d4a7290aa571db3790b097321 192 main/binary-i386/Release
 SHA256:
- 5c0428cd19af521e75f7601b8acc347798afe142eea9b1278c4851b11c3612e9 10052 main/binary-arm64/Packages
- e5b3c53445856a7f67337a8c010a0132ef6af4a79f516170fbc6da5f3d6959b7 2851 main/binary-arm64/Packages.gz
+ acfd242a48d4da5be95d56c16919ba48e5fd62cfb17377acacc0d686695dfc30 5466 main/binary-amd64/Packages
+ a4765ede50d5bdeaec55c692bab26104dcedfb0d5b448cca2c5b433ba67358ac 1921 main/binary-amd64/Packages.gz
+ 01795f9cbfd44517b4c825fcf20938574e07088f8f776442bbb38370db26c098 193 main/binary-amd64/Release
+ bd8c3a11aea921dafdd5aeb59067f3e6b1f130a72cde8bc8da1fa8d4ab4dbb85 10052 main/binary-arm64/Packages
+ cb51f33f680a00c8aee729c11051067638408fe27d171f032e4af21a097c61f2 2872 main/binary-arm64/Packages.gz
  d273747ca16443e5f5bb734ce7d45828a3fa741bdee2e8d76ed29557062272cc 193 main/binary-arm64/Release
- 6c0d026ad13542c8f56670452a4b5bd3a388142f57d289150cfa39b54c3b20e6 2360 main/binary-armhf/Packages
- 6e9401cbbbe6c43aa7b79aac80fcfcdc31a19f766c10112359a5b21950ef627c 1030 main/binary-armhf/Packages.gz
+ c7c61060ebf7b40824b0e47dd3c57f7654da37ce83a7ca0f6d95195d30a0920a 2360 main/binary-armhf/Packages
+ 7f0ecc056529fa31a2b9499384bb78991643deafe8ace43726a28dd85e6e7b49 1043 main/binary-armhf/Packages.gz
  116b50ab75f90cfb0cb2af33ba53b947523ad9f60a2a81d1c7649c57838931ba 193 main/binary-armhf/Release
+ f2f5e1bcdf7463697309f42a01cfeee4b579937011bc3d4d182bc81f68afd5e9 1774 main/binary-i386/Packages
+ cb512ea8c6fdf575c1d0741761f0e61e77b756d06fe09dcb8b5ea54c92b6c045 844 main/binary-i386/Packages.gz
+ 5c7942d419c3c14d6c79c9537118a0561ca6267814c1d71fad65045b9dfffc5c 192 main/binary-i386/Release

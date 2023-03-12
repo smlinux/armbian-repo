@@ -19,7 +19,7 @@ MD5sum: 2bfe43894a59af67e4c51caf988c75c3
 Description: Armbian board support files for tanix-tx6
 
 Package: armbian-config
-Version: 23.02.0-trunk-20230124-12
+Version: 23.05.0-trunk-20230312-05
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Replaces: armbian-bsp, neofetch
@@ -28,11 +28,11 @@ Recommends: armbian-bsp
 Suggests: libpam-google-authenticator, qrencode, network-manager, sunxi-tools
 Priority: optional
 Section: utils
-Filename: pool/main/a/armbian-config/armbian-config_23.02.0-trunk-20230124-12_all.deb
-Size: 129800
-SHA256: f8aa484320f49b2c3fbf3a5f51b7dbc76046d10bc84197db54dcf7a853490790
-SHA1: b4990de270c5ee2ce36d751f63cbde2882ea02ee
-MD5sum: eb5f0251428e9c25ef0bf18d0def4016
+Filename: pool/main/a/armbian-config/armbian-config_23.05.0-trunk-20230312-05_all.deb
+Size: 129924
+SHA256: d5b0410efa5fb274f480436b6e539d8aa61746b3c48e2ea00e896c5754223d07
+SHA1: 98bfdc4f2d195d90a004f00abb2485bcfaeb9948
+MD5sum: 9cd59d04a95314223780aa34f1a3201f
 Description: Armbian configuration utility
 
 Package: armbian-firmware
@@ -51,31 +51,31 @@ MD5sum: 73860edb4fbc8325ac14a722db57f3d7
 Description: Linux firmware
 
 Package: armbian-plymouth-theme
-Version: 23.02.0-trunk-20230124-12
+Version: 23.05.0-trunk-20230312-05
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Depends: plymouth, plymouth-themes
 Priority: optional
 Section: universe/x11
-Filename: pool/main/a/armbian-plymouth-theme/armbian-plymouth-theme_23.02.0-trunk-20230124-12_all.deb
-Size: 120764
-SHA256: 7b04fae948c304e73f3a60427dc3b35a50612e97fd2ac2d24c65ee451735beca
-SHA1: a576c7b30329ead3b97c6659cd5e4285c1c11622
-MD5sum: 1d3f6ee0360214800dd59d73a7eabc2f
+Filename: pool/main/a/armbian-plymouth-theme/armbian-plymouth-theme_23.05.0-trunk-20230312-05_all.deb
+Size: 120780
+SHA256: 025d5d74bd72f262baffcfe1251213c6849834300675a85fd51d4ce2a8c0965c
+SHA1: 8e971640f12d2d427e270e7d8ca5647fa43dc424
+MD5sum: 0ca57f39e481cd322c432a0ee99380a8
 Description: boot animation, logger and I/O multiplexer - armbian theme
 
 Package: armbian-zsh
-Version: 23.02.0-trunk-20230124-12
+Version: 23.05.0-trunk-20230312-05
 Architecture: all
 Maintainer: smlinux <smartlinux@ya.ru>
 Depends: zsh, tmux
 Priority: optional
 Section: utils
-Filename: pool/main/a/armbian-zsh/armbian-zsh_23.02.0-trunk-20230124-12_all.deb
-Size: 2783492
-SHA256: 90757d57e31dc462becf9d437dfca63978358413ed0afb13942160458c598cc9
-SHA1: 0d003d1081a23147d51c9c0995b35988b49c069b
-MD5sum: 5b0338479e69ec995fedc7afab75527e
+Filename: pool/main/a/armbian-zsh/armbian-zsh_23.05.0-trunk-20230312-05_all.deb
+Size: 4175920
+SHA256: d4f21cd88769630231cd304cfcfbb095bc6b53cfe3b49b780f2f4db08ed31c6c
+SHA1: 96cf36cc3659048b31fed498f9ae1cb80ebd92cc
+MD5sum: 77b9169eae588e004ca465fd9a6ad2a9
 Description: Armbian improved ZShell
 
 Package: linux-dtb-edge-sunxi64

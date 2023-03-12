@@ -1,0 +1,45 @@
+Package: armbian-config
+Version: 23.05.0-trunk-20230312-05
+Architecture: all
+Maintainer: smlinux <smartlinux@ya.ru>
+Replaces: armbian-bsp, neofetch
+Depends: bash, iperf3, psmisc, curl, bc, expect, dialog, pv, zip, 		debconf-utils, unzip, build-essential, html2text, html2text, dirmngr, software-properties-common, debconf, jq
+Recommends: armbian-bsp
+Suggests: libpam-google-authenticator, qrencode, network-manager, sunxi-tools
+Priority: optional
+Section: utils
+Filename: pool/main/a/armbian-config/armbian-config_23.05.0-trunk-20230312-05_all.deb
+Size: 129924
+SHA256: d5b0410efa5fb274f480436b6e539d8aa61746b3c48e2ea00e896c5754223d07
+SHA1: 98bfdc4f2d195d90a004f00abb2485bcfaeb9948
+MD5sum: 9cd59d04a95314223780aa34f1a3201f
+Description: Armbian configuration utility
+
+Package: armbian-plymouth-theme
+Version: 23.05.0-trunk-20230312-05
+Architecture: all
+Maintainer: smlinux <smartlinux@ya.ru>
+Depends: plymouth, plymouth-themes
+Priority: optional
+Section: universe/x11
+Filename: pool/main/a/armbian-plymouth-theme/armbian-plymouth-theme_23.05.0-trunk-20230312-05_all.deb
+Size: 120780
+SHA256: 025d5d74bd72f262baffcfe1251213c6849834300675a85fd51d4ce2a8c0965c
+SHA1: 8e971640f12d2d427e270e7d8ca5647fa43dc424
+MD5sum: 0ca57f39e481cd322c432a0ee99380a8
+Description: boot animation, logger and I/O multiplexer - armbian theme
+
+Package: armbian-zsh
+Version: 23.05.0-trunk-20230312-05
+Architecture: all
+Maintainer: smlinux <smartlinux@ya.ru>
+Depends: zsh, tmux
+Priority: optional
+Section: utils
+Filename: pool/main/a/armbian-zsh/armbian-zsh_23.05.0-trunk-20230312-05_all.deb
+Size: 4175920
+SHA256: d4f21cd88769630231cd304cfcfbb095bc6b53cfe3b49b780f2f4db08ed31c6c
+SHA1: 96cf36cc3659048b31fed498f9ae1cb80ebd92cc
+MD5sum: 77b9169eae588e004ca465fd9a6ad2a9
+Description: Armbian improved ZShell
+
